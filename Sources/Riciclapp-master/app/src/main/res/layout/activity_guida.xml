@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnCarta"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_carta"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnOrganico"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_organico"
+                tools:layout_editor_absoluteX="56dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnPlaticaLattine"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_plastica_lattine"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnVetroLattine"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_vetro_lattine"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnIndifferenziato"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_indifferenziata"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="119dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnRaee"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_raee"
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="158dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnRup"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_rup"
+                tools:layout_editor_absoluteX="127dp"
+                tools:layout_editor_absoluteY="420dp" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnPile"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:text="@string/btn_pile_farmaci"
+                tools:layout_editor_absoluteX="249dp"
+                tools:layout_editor_absoluteY="269dp" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textGuidaTitolo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:gravity="center"
+            android:text="@string/btn_carta" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textGuidaTesto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:scrollbars = "vertical"
+            app:autoSizeTextType="uniform"
+            android:text="@string/lorem_ipsum" />
+
+    </LinearLayout>
+
+</LinearLayout>

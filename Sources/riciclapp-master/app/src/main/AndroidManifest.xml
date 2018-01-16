@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="clod182.riciclapp">
+    package="com.riciclapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+        android:name=".RiciclappApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +20,61 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Preferiti"
+            android:label="@string/menu_item_preferiti"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Gioco"
+            android:label="@string/btn_gioco"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Guida"
+            android:label="@string/btn_guida"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".PosizioneCorrente"
+            android:label="@string/btn_posizione_corrente"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".SelezionaProvincia"
+            android:label="@string/btn_sel_provincia"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Statistiche"
+            android:label="@string/btn_statistiche"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>

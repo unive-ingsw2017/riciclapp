@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Riciclapp</string>
+    <string name="app_name">RiciclApp</string>
+    <string name="btn_gioco">Gioco</string>
+    <string name="btn_statistiche">Statistiche</string>
+    <string name="btn_guida">Guida</string>
+    <string name="btn_sel_provincia">Seleziona provincia</string>
+    <string name="btn_posizione_corrente">Posizione corrente</string>
+    <string name="menu_item_preferiti">Preferiti</string>
+
+    <string name="btn_carta">Carta</string>
+    <string name="btn_organico">Organico</string>
+    <string name="btn_plastica_lattine">Plastica\nlattine</string>
+    <string name="btn_vetro_lattine">Vetro\nlattine</string>
+    <string name="btn_indifferenziata">Indifferenziata</string>
+    <string name="btn_raee">RAEE</string>
+    <string name="btn_rup">RUP</string>
+    <string name="btn_pile_farmaci">Pile\nFarmaci\nAbiti\nOli</string>
+    <string name="lorem_ipsum">
+        Inizio\n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae urna massa. Vivamus sit amet diam et ipsum porta fringilla sit amet at odio. Nunc pellentesque erat luctus nulla malesuada venenatis. Duis sodales scelerisque faucibus. Nullam eu est vitae metus tristique vestibulum. In eu nibh libero. Ut auctor lorem erat, non imperdiet libero congue vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in metus id eros lacinia vehicula. Nunc sit amet dui interdum, molestie purus id, viverra neque.
+
+        Vestibulum vehicula, lacus eu lacinia gravida, augue tortor luctus turpis, nec pharetra lorem eros sed sapien. Nunc volutpat dictum fermentum. Phasellus porttitor nunc nunc, eu ornare eros commodo non. Curabitur sed pharetra orci. Etiam vehicula fringilla tellus, fermentum hendrerit neque tempus sit amet. Maecenas in est venenatis, tempus orci id, maximus odio. Duis pretium fringilla scelerisque. Donec sem odio, dictum quis finibus quis, tincidunt eu velit. Nulla vitae ante sodales, volutpat dui sit amet, condimentum urna. Pellentesque vestibulum turpis lectus, eget semper dolor pretium sit amet.
+
+        Proin a interdum nisi, eu sollicitudin ante. Duis finibus, enim mattis lacinia tempus, arcu ipsum rhoncus urna, ac facilisis felis ipsum vel nibh. Praesent varius augue tortor, ut vehicula velit luctus vel. Donec dapibus, libero id convallis vulputate, nunc tortor mollis turpis, ut tempus est augue quis est. Sed fermentum sollicitudin felis, nec sollicitudin magna rhoncus eu. Aliquam cursus consectetur tellus sed ultricies. Quisque consequat maximus sodales. Ut semper, augue ut dignissim suscipit, arcu sem commodo libero, sit amet auctor quam orci et nisl. Donec congue risus eu erat facilisis, id efficitur sem condimentum. Fusce mollis, felis a placerat congue, risus purus vestibulum eros, eget lobortis tortor metus eu orci. Integer ut condimentum est, at tempor sem.
+        \n\n Fine
+    </string>
 </resources>

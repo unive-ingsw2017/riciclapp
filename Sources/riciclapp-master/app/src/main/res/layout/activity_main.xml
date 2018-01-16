@@ -1,86 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="clod182.riciclapp.MainActivity">
+    android:orientation="vertical"
+    tools:context="com.riciclapp.MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/relLayMain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <include layout="@layout/toolbar_layout" />
 
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/buttonSelProv"
-            android:layout_width="316dp"
-            android:layout_height="79dp"
-            android:layout_alignLeft="@+id/buttonGuida"
-            android:layout_alignStart="@+id/buttonGuida"
-            android:layout_below="@+id/buttonGuida"
-            android:layout_marginTop="23dp"
-            android:text="SELEZIONE PROVINCIA"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="291dp" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnGioco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_gioco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/buttonGioco"
-            android:layout_width="316dp"
-            android:layout_height="79dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="18dp"
-            android:text="GIOCO"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="116dp" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnStatistiche"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_statistiche"
+                app:layout_constraintEnd_toEndOf="@+id/btnGuida"
+                app:layout_constraintStart_toStartOf="@+id/btnGuida"
+                app:layout_constraintTop_toBottomOf="@+id/btnGioco" />
 
-        <Button
-            android:id="@+id/buttonStat"
-            android:layout_width="316dp"
-            android:layout_height="79dp"
-            android:layout_below="@+id/buttonGioco"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="12dp"
-            android:text="STATISCTICHE"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="203dp" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnGuida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_guida"
+                app:layout_constraintEnd_toEndOf="@+id/btnSelProvincia"
+                app:layout_constraintStart_toStartOf="@+id/btnSelProvincia"
+                app:layout_constraintTop_toBottomOf="@+id/btnStatistiche" />
 
-        <Button
-            android:id="@+id/buttonGuida"
-            android:layout_width="316dp"
-            android:layout_height="79dp"
-            android:layout_alignLeft="@+id/buttonStat"
-            android:layout_alignStart="@+id/buttonStat"
-            android:layout_below="@+id/buttonStat"
-            android:layout_marginTop="12dp"
-            android:text="GUIDA"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="30dp" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnSelProvincia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_sel_provincia"
+                app:layout_constraintEnd_toEndOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintStart_toStartOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintTop_toBottomOf="@+id/btnGuida" />
 
-        <Button
-            android:id="@+id/buttonPosCor"
-            android:layout_width="157dp"
-            android:layout_height="85dp"
-            android:layout_below="@+id/buttonSelProv"
-            android:layout_toEndOf="@+id/buttonPref"
-            android:layout_toRightOf="@+id/buttonPref"
-            android:text="POSIZIONE CORRENTE"
-            tools:layout_editor_absoluteX="193dp"
-            tools:layout_editor_absoluteY="382dp" />
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnPosizioneCorrente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_posizione_corrente"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSelProvincia" />
 
-        <Button
-            android:id="@+id/buttonPref"
-            android:layout_width="157dp"
-            android:layout_height="85dp"
-            android:layout_alignLeft="@+id/buttonSelProv"
-            android:layout_alignStart="@+id/buttonSelProv"
-            android:layout_below="@+id/buttonSelProv"
-            android:text="PREFERITI"
-            tools:layout_editor_absoluteX="34dp"
-            tools:layout_editor_absoluteY="382dp" />
+        </android.support.constraint.ConstraintLayout>
 
-    </RelativeLayout>
-</RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
