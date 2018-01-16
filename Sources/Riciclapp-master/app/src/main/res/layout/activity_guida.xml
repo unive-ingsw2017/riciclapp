@@ -118,7 +118,7 @@
             android:layout_height="match_parent"
             android:gravity="start|center"
             android:scrollbars = "vertical"
-            app:autoSizeTextType="uniform"
+            android:textSize="22dp"
             android:text="@string/lorem_ipsum" />
 
     </LinearLayout>

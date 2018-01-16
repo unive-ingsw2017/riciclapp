@@ -55,35 +55,35 @@ public class Guida extends AppCompatActivity implements View.OnClickListener{
         switch (v.getId()) {
             case R.id.btnCarta:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.carta));
                 break;
             case R.id.btnOrganico:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.organico));
                 break;
             case R.id.btnPlaticaLattine:
                 titoloGuida.setText(((Button)v).getText().toString().replace("\n", ", "));
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.plasticalattine));
                 break;
             case R.id.btnVetroLattine:
                 titoloGuida.setText(((Button)v).getText().toString().replace("\n", ", "));
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.vetrolattine));
                 break;
             case R.id.btnIndifferenziato:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.secco));
                 break;
             case R.id.btnRaee:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.raee));
                 break;
             case R.id.btnRup:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.rup));
                 break;
             case R.id.btnPile:
                 titoloGuida.setText(((Button)v).getText().toString().replace("\n", ", "));
-                testoGuida.setText(getString(R.string.lorem_ipsum));
+                testoGuida.setText(getString(R.string.pile));
                 break;
         }
     }
