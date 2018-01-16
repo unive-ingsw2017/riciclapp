@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">RiciclApp</string>
-    <string name="btn_gioco">Gioco</string>
-    <string name="btn_statistiche">Statistiche</string>
-    <string name="btn_guida">Guida</string>
-    <string name="btn_sel_provincia">Seleziona provincia</string>
-    <string name="btn_posizione_corrente">Posizione corrente</string>
+    <string name="btn_gioco">Test Conoscenze</string>
+    <string name="btn_statistiche">Statistiche sui rifiuti</string>
+    <string name="btn_guida">Guida al riciclaggio</string>
+    <string name="btn_sel_provincia">Lista Ecocentri</string>
+    <string name="btn_preferiti">Ecocentri Preferiti</string>
+    <string name="btn_posizione_corrente">Ecocentro più vicino</string>
     <string name="menu_item_preferiti">Preferiti</string>
 
     <string name="btn_carta">Carta</string>

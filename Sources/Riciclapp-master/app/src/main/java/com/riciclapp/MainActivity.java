@@ -12,7 +12,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    AppCompatButton btnGioco, btnStatistiche, btnGuida, btnSelezionaProvincia, btnPosizioneCorrente;
+    AppCompatButton btnGioco, btnStatistiche, btnGuida, btnSelezionaProvincia, btnPosizioneCorrente, btnPreferiti;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,33 +27,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnGuida = findViewById(R.id.btnGuida);
         btnSelezionaProvincia = findViewById(R.id.btnSelProvincia);
         btnPosizioneCorrente = findViewById(R.id.btnPosizioneCorrente);
+        btnPreferiti = findViewById(R.id.btnPreferiti);
 
         btnGioco.setOnClickListener(this);
         btnStatistiche.setOnClickListener(this);
         btnGuida.setOnClickListener(this);
         btnSelezionaProvincia.setOnClickListener(this);
         btnPosizioneCorrente.setOnClickListener(this);
+        btnPreferiti.setOnClickListener(this);
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.main_menu, menu);
+//        return true;
+//    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        switch (item.getItemId()) {
-            case R.id.preferiti:
-                startActivity(new Intent(this, Preferiti.class));
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
-        }
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//
+//        switch (item.getItemId()) {
+//            case R.id.preferiti:
+//                startActivity(new Intent(this, Preferiti.class));
+//                return true;
+//            default:
+//                return super.onOptionsItemSelected(item);
+//        }
+//    }
 
     @Override
     public void onClick(View v) {
@@ -72,6 +74,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnPosizioneCorrente:
                 startActivity(new Intent(this, PosizioneCorrente.class));
+                break;
+            case R.id.btnPreferiti:
+                startActivity(new Intent(this, Preferiti.class));
                 break;
         }
     }
