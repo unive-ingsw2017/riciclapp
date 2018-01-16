@@ -10,7 +10,7 @@
 
     <string name="btn_carta">Carta</string>
     <string name="btn_organico">Organico</string>
-    <string name="btn_plastica_lattine">Plastica\nlattine</string>
+    <string name="btn_plastica_lattine">Plastica</string>
     <string name="btn_vetro_lattine">Vetro\nlattine</string>
     <string name="btn_indifferenziata">Secco</string>
     <string name="btn_raee">RAEE</string>
