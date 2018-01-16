@@ -97,4 +97,10 @@
     <string name="btn_game">Inizia Gioco</string>
     <string name="domanda">Dove va gettato?</string>
 
+    <string name="btnResult">Risultato</string>
+    <string name="btnReturn">FINE</string>
+    <string name="quiz">Quiz Riciclo</string>
+    <string name="btn_start">Gioca!</string>
+
+
 </resources>

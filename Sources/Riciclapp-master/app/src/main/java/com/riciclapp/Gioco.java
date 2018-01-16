@@ -1,21 +1,18 @@
 package com.riciclapp;
 
 import android.content.Intent;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.AppCompatTextView;
+import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.TextView;
+import android.content.SharedPreferences;
+import android.content.Context;
 
-
-public class Gioco extends AppCompatActivity implements View.OnClickListener {
-
-    private AppCompatTextView textPunteggio;
+public class Gioco extends AppCompatActivity {
 
     @Override
-    public void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gioco);
 
@@ -26,20 +23,45 @@ public class Gioco extends AppCompatActivity implements View.OnClickListener {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        AppCompatButton btnGame = findViewById(R.id.btnGame);
-        textPunteggio = findViewById(R.id.textPunteggio);
+        TextView maxScore = (TextView) findViewById(R.id.maxScore);
 
-        btnGame.setOnClickListener(this);
+        int score = getIntent().getIntExtra("SCORE", 0);
+
+
+        SharedPreferences settings = getSharedPreferences("quizApp", Context.MODE_PRIVATE);
+        int max = settings.getInt("max", 0);
+        if (score > max){
+            max = score;
+        }
+
+        maxScore.setText("Best Score: " + max);
+
+        // Update max score.
+        SharedPreferences.Editor editor = settings.edit();
+        editor.putInt("max", max);
+        editor.commit();
+
     }
 
-//    textPunteggio.setText(Game.maxPunteggio.toString());
+    public void startQuiz(View view) {
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.btnGame:
-                startActivity(new Intent(this, Game.class));
-                break;
-        }
+//        int quizCategory = 0;  // All
+//
+//        switch (view.getId()) {
+//            case R.id.asia:
+//                quizCategory = 1;
+//                break;
+//            case R.id.america:
+//                quizCategory = 2;
+//                break;
+//            case R.id.europe:
+//                quizCategory = 3;
+//                break;
+//        }
+
+        Intent intent = new Intent(getApplicationContext(), Game.class);
+//        intent.putExtra("QUIZ_CATEGORY", quizCategory);
+        startActivity(intent);
+
     }
 }

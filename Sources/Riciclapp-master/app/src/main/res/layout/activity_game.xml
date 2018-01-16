@@ -1,128 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.riciclapp.Game"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <include layout="@layout/toolbar_layout" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="22sp" />
 
-        <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/textDomanda"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="@string/domanda"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            app:textAllCaps="true" />
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24sp" />
 
-        <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/textElemento"
-            android:layout_width="match_parent"
-            android:layout_height="151dp"
-            android:gravity="start|center"
-            android:scrollbars="vertical"
-            android:text=""
-            android:textAlignment="center"
-            android:textSize="40dp"
-            app:textAllCaps="true" />
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text=""
+        android:layout_marginTop="80dp"
+        android:onClick="checkAnswer"/>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text=""
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnCarta"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_carta"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="0dp" />
+    <Button
+        android:id="@+id/answerBtn3"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text=""
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnOrganico"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_organico"
-                tools:layout_editor_absoluteX="56dp"
-                tools:layout_editor_absoluteY="0dp" />
-
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnPlaticaLattine"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_plastica_lattine"
-                tools:layout_editor_absoluteX="149dp"
-                tools:layout_editor_absoluteY="0dp" />
-
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnVetroLattine"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_vetro_lattine"
-                tools:layout_editor_absoluteX="249dp"
-                tools:layout_editor_absoluteY="0dp" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
-
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnIndifferenziato"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_indifferenziata"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="119dp" />
-
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnRaee"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_raee"
-                tools:layout_editor_absoluteX="149dp"
-                tools:layout_editor_absoluteY="158dp" />
-
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnRup"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_rup"
-                tools:layout_editor_absoluteX="127dp"
-                tools:layout_editor_absoluteY="420dp" />
-
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnPile"
-                android:layout_width="0dp"
-                android:layout_height="80dp"
-                android:layout_weight="1"
-                android:text="@string/btn_pile_farmaci"
-                tools:layout_editor_absoluteX="249dp"
-                tools:layout_editor_absoluteY="269dp" />
-        </LinearLayout>
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/answerBtn4"
+        android:layout_width="@dimen/answerBtn_width"
+        android:layout_height="@dimen/answerBtn_height"
+        android:text=""
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
 
 </LinearLayout>

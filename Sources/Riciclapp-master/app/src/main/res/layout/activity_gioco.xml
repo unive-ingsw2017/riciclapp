@@ -1,63 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.riciclapp.Gioco"
+    android:gravity="center_horizontal"
     android:orientation="vertical">
 
     <include layout="@layout/toolbar_layout" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:orientation="vertical">
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="80dp"-->
+        <!--android:text="@string/quiz"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textSize="50sp" />-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal">
+    <Button
+        android:id="@+id/startGame"
+        android:layout_width="@dimen/startBtn_width"
+        android:layout_height="@dimen/startBtn_height"
+        android:layout_marginTop="50dp"
+        android:onClick="startQuiz"
+        android:text="@string/btn_start"
+        android:textSize="50dp" />
 
-        </LinearLayout>
+    <TextView
+        android:id="@+id/maxScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+    <!--<Button-->
+        <!--android:id="@+id/asia"-->
+        <!--android:layout_width="@dimen/startBtn_width"-->
+        <!--android:layout_height="@dimen/startBtn_height"-->
+        <!--android:text="Asia"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:onClick="startQuiz"/>-->
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnGame"
-                android:layout_width="138dp"
-                android:layout_height="136dp"
-                android:layout_weight="1"
-                android:text="@string/btn_game"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="119dp" />
+    <!--<Button-->
+        <!--android:id="@+id/america"-->
+        <!--android:layout_width="@dimen/startBtn_width"-->
+        <!--android:layout_height="@dimen/startBtn_height"-->
+        <!--android:text="America"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:onClick="startQuiz"/>-->
 
-        </LinearLayout>
-
-        <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/textPunteggio"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:text="@string/score"
-            android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
-
-        <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/textScore"
-            android:layout_width="369dp"
-            android:layout_height="86dp"
-            android:gravity="start|center"
-            android:scrollbars="none"
-            android:textSize="22dp"
-            app:textAllCaps="false" />
-
-    </LinearLayout>
+    <!--<Button-->
+        <!--android:id="@+id/europe"-->
+        <!--android:layout_width="@dimen/startBtn_width"-->
+        <!--android:layout_height="@dimen/startBtn_height"-->
+        <!--android:text="Europe"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:onClick="startQuiz"/>-->
 
 </LinearLayout>

@@ -49,6 +49,15 @@
         </activity>
 
         <activity
+            android:name=".Result"
+            android:label="@string/btn_game"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
             android:name=".Guida"
             android:label="@string/btn_guida"
             android:theme="@style/AppTheme" >
