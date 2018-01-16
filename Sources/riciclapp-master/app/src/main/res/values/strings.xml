@@ -92,4 +92,9 @@
         \n\nOli vegetali:\n
         L’olio vegetale è un rifiuto recuperabile. Se versato nelle fognature cittadine può causare inquinamento alle condotte fognarie e danni ai sistemi di depurazione. Deve essere raccolto separatamente e conferito alle stazioni ecologiche.
     </string>
+
+    <string name="score">Punteggio Massimo</string>
+    <string name="btn_game">Inizia Gioco</string>
+    <string name="domanda">Dove va gettato?</string>
+
 </resources>
