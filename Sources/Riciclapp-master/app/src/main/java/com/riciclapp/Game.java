@@ -33,7 +33,7 @@ public class Game extends AppCompatActivity {
     ArrayList<ArrayList<String>> quizArray = new ArrayList<>();
 
     String quizData[][] = {
-            // {"Country", "Right Answer", "Choice1", "Choice2", "Choice3"}
+            // {"Elemento", "Right Answer", "Choice1", "Choice2", "Choice3"}
             {"giornali", "carta", "raee", "secco", "organico"},
             {"riviste", "carta", "organico", "secco", "plastica"},
             {"libri", "carta", "secco", "plastica", "rup"},
