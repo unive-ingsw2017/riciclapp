@@ -131,9 +131,10 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
         catch ( NumberFormatException e ) {
         }
         if (elem != -1){
-            float res = 0;
+            double res = 0.0;
             if (population != 0){
                 res = elem / population;
+                res = Math.round(res * 100.0) / 100.0;
             }
             viewHolder.score.setText((String.valueOf(res)));
         }
