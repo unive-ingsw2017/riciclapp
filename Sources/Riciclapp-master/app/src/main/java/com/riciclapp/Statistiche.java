@@ -16,7 +16,7 @@ public class Statistiche extends AppCompatActivity {
 
     private ListView listView;
     private ItemArrayAdapter itemArrayAdapter;
-    int category, position = 0;
+    int category;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -40,8 +40,6 @@ public class Statistiche extends AppCompatActivity {
         List<String[]> scoreList = csvFile.read();
 
         for(String[] scoreData:scoreList ) {
-            position++;
-            itemArrayAdapter.position(position);
             itemArrayAdapter.add(scoreData);
         }
     }

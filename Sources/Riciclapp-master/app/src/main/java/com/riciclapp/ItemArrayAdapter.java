@@ -8,11 +8,12 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class ItemArrayAdapter extends ArrayAdapter<String[]> {
 	private List<String[]> scoreList = new ArrayList<String[]>();
-	public int category, count;
+	public int category;
 
     static class ItemViewHolder {
         TextView name;
@@ -24,25 +25,41 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
         category = cat;
     }
 
-    public void position(int val){
-        count = val;
-    }
-
 	@Override
 	public void add(String[] object) {
         try {
             Float.valueOf(object[category]);
             scoreList.add(object);
             super.add(object);
+            Collections.sort(scoreList, new Comparator<String[]>() {
+                @Override
+                public int compare(String[] lhs, String[] rhs) {
+                    // -1 - less than, 1 - greater than, 0 - equal, all inversed for descending
+                    if (category != 17)
+                        return (Float.valueOf(lhs[category])/Float.valueOf(lhs[2])) > (Float.valueOf(rhs[category])/Float.valueOf(rhs[2])) ? -1
+                            : ((Float.valueOf(lhs[category])/Float.valueOf(lhs[2])) < (Float.valueOf(rhs[category]))/Float.valueOf(rhs[2])) ? 1 : 0;
+                    else
+                        return Float.valueOf(lhs[category]) > Float.valueOf(rhs[category]) ? -1
+                                : Float.valueOf(lhs[category]) < Float.valueOf(rhs[category]) ? 1 : 0;
+                }
+            });
+            if (category != 17)
+                Collections.reverse(scoreList);
+
         }
         catch ( NumberFormatException e ) {
             if (category == 0){
                 scoreList.add(object);
                 super.add(object);
-
+                Collections.sort(scoreList, new Comparator<String[]>() {
+                    @Override
+                    public int compare(String[] lhs, String[] rhs) {
+                        // -1 - less than, 1 - greater than, 0 - equal, all inversed for descending
+                        return lhs[1].compareTo(rhs[1]);
+                    }
+                });
             }
         }
-        //ordinamento
 	}
 
     @Override
