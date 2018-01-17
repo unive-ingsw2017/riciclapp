@@ -93,6 +93,24 @@
                 android:value="com.riciclapp.MainActivity" />
         </activity>
 
+        <activity
+            android:name=".StatisticheResult"
+            android:label="@string/btn_statistiche"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Comune"
+            android:label="@string/btn_statistiche"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>
