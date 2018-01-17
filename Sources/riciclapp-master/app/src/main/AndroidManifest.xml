@@ -94,7 +94,7 @@
         </activity>
 
         <activity
-            android:name=".StatisticheResult"
+            android:name=".StatisticheHome"
             android:label="@string/btn_statistiche"
             android:theme="@style/AppTheme">
             <meta-data

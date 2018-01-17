@@ -102,5 +102,14 @@
     <string name="quiz">Quiz Riciclo</string>
     <string name="btn_start">Gioca!</string>
 
+    <string name="btn_all">Tutti i Comuni</string>
+    <string name="btn_p_secco">Top Secco</string>
+    <string name="btn_p_verde">Top Verde</string>
+    <string name="btn_p_vetro">Top Vetro</string>
+    <string name="btn_p_carta">Top Carta</string>
+    <string name="btn_p_plastica">Top Plastica</string>
+    <string name="btn_p_rd">Top RD</string>
+    <string name="btn_rifiuti">Top Globale</string>
+
 
 </resources>

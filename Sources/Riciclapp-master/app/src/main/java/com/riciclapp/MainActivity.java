@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, Guida.class));
                 break;
             case R.id.btnStatistiche:
-                startActivity(new Intent(this, Statistiche.class));
+                startActivity(new Intent(this, StatisticheHome.class));
                 break;
             case R.id.btnSelProvincia:
                 startActivity(new Intent(this, SelezionaProvincia.class));

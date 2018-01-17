@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_all"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_all"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_secco"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_p_secco"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="269dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_verde"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_p_verde"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_vetro"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_p_vetro"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="269dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_carta"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_p_carta"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_plastica"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_p_plastica"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="269dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_rd"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_p_rd"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="420dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_p_rifiuti"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:text="@string/btn_rifiuti"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="269dp" />
+    </LinearLayout>
+
+</LinearLayout>
