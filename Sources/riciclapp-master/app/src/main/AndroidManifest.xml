@@ -86,7 +86,7 @@
 
         <activity
             android:name=".Statistiche"
-            android:label="@string/btn_statistiche"
+            android:label="@string/btn_stares"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -104,7 +104,7 @@
 
         <activity
             android:name=".Comune"
-            android:label="@string/btn_statistiche"
+            android:label="@string/btn_comune"
             android:theme="@style/AppTheme">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

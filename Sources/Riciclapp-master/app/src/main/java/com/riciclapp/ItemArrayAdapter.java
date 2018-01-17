@@ -16,6 +16,7 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
 	public int category;
 
     static class ItemViewHolder {
+        TextView pos;
         TextView name;
         TextView score;
     }
@@ -81,6 +82,7 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
                     getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 			row = inflater.inflate(R.layout.item_layout, parent, false);
             viewHolder = new ItemViewHolder();
+            viewHolder.pos = (TextView) row.findViewById(R.id.pos);
             viewHolder.name = (TextView) row.findViewById(R.id.name);
             viewHolder.score = (TextView) row.findViewById(R.id.score);
             row.setTag(viewHolder);
@@ -89,6 +91,7 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
         }
         String[] linea = getItem(position);
 
+        viewHolder.pos.setText(position + 1 + "° ");
         viewHolder.name.setText(linea[1]);
         switch (category) {
             case 0:

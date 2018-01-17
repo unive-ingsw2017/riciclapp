@@ -111,5 +111,8 @@
     <string name="btn_p_rd">Top RD</string>
     <string name="btn_rifiuti">Top Globale</string>
 
+    <string name="btn_comune">Dettagli Comune</string>
+    <string name="btn_stares">Risultati Statistiche</string>
+
 
 </resources>
