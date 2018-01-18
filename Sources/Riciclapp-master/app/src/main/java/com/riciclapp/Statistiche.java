@@ -66,9 +66,4 @@ public class Statistiche extends AppCompatActivity implements AdapterView.OnItem
         startActivity(intent);
     }
 
-
-    //click comune
-//    Intent intent = new Intent(getApplicationContext(), Comune.class);
-//    intent.putExtra("FILTER_CAT", category);
-//    startActivity(intent);
 }
