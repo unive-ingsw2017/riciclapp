@@ -66,9 +66,9 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/btn_sel_provincia"
-                app:layout_constraintEnd_toEndOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintEnd_toEndOf="@+id/btnPreferiti"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintStart_toStartOf="@+id/btnPreferiti"
                 app:layout_constraintTop_toBottomOf="@+id/btnStatistiche"
                 tools:text="Lista Ecocentri" />
 
@@ -79,29 +79,13 @@
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:text="@string/btn_preferiti"
-                app:layout_constraintEnd_toEndOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnSelProvincia"
                 tools:text="Ecocentri Preferiti" />
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnPosizioneCorrente"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:text="@string/btn_posizione_corrente"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnPreferiti"
-                tools:text="Ecocentro più vicino" />
-
-
-
         </android.support.constraint.ConstraintLayout>
-
 
     </ScrollView>
 

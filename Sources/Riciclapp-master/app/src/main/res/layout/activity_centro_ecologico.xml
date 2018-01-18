@@ -29,20 +29,41 @@
             app:layout_constraintVertical_bias="0.0"
             app:textAllCaps="true" />
 
+        <ImageButton
+            android:id="@+id/btnAddPref"
+            android:layout_width="60dp"
+            android:layout_height="@dimen/answerBtn_height"
+            android:onClick="onToggleStar"
+            android:src="@drawable/ic_star_white_24dp"
+            android:text="Pref"
+            app:layout_constraintEnd_toStartOf="@+id/btnMaps"
+            app:layout_constraintTop_toBottomOf="@+id/text_nome_comune" />
+
+        <Button
+            android:id="@+id/btnMaps"
+            android:layout_width="60dp"
+            android:layout_height="@dimen/answerBtn_height"
+            android:layout_marginEnd="8dp"
+            android:onClick="onMapsClick"
+            android:text="Go TO"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_nome_comune" />
+
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/text_dettagli_eco"
-            android:layout_width="match_parent"
-            android:layout_height="462dp"
+            android:layout_width="366dp"
+            android:layout_height="486dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
+            android:scrollbars="vertical"
             android:textSize="20sp"
-            android:scrollbars = "vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_nome_comune"
-            app:textAllCaps="true" />
+            app:layout_constraintVertical_bias="0.0"
+            app:textAllCaps="false" />
 
 
     </android.support.constraint.ConstraintLayout>

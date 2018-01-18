@@ -18,7 +18,6 @@ public class Result extends AppCompatActivity {
         setContentView(R.layout.activity_result);
 
         TextView resultLabel = (TextView) findViewById(R.id.resultLabel);
-//        TextView totalScoreLabel = (TextView) findViewById(R.id.totalScoreLabel);
 
         score = getIntent().getIntExtra("RIGHT_ANSWER_COUNT", 0);
 
@@ -27,8 +26,7 @@ public class Result extends AppCompatActivity {
 //        totalScore += score;
 
         resultLabel.setText(score + " / 15");
-//        totalScoreLabel.setText("Total Score : " + totalScore);
-//
+
 //        // Update total score.
 //        SharedPreferences.Editor editor = settings.edit();
 //        editor.putInt("totalScore", totalScore);

@@ -9,7 +9,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    AppCompatButton btnGioco, btnStatistiche, btnGuida, btnSelezionaProvincia, btnPosizioneCorrente, btnPreferiti;
+    AppCompatButton btnGioco, btnStatistiche, btnGuida, btnSelezionaProvincia, btnPreferiti;
     int bottone;
 
     @Override
@@ -24,16 +24,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnStatistiche = findViewById(R.id.btnStatistiche);
         btnGuida = findViewById(R.id.btnGuida);
         btnSelezionaProvincia = findViewById(R.id.btnSelProvincia);
-        btnPosizioneCorrente = findViewById(R.id.btnPosizioneCorrente);
         btnPreferiti = findViewById(R.id.btnPreferiti);
 
         btnGioco.setOnClickListener(this);
         btnStatistiche.setOnClickListener(this);
         btnGuida.setOnClickListener(this);
         btnSelezionaProvincia.setOnClickListener(this);
-        btnPosizioneCorrente.setOnClickListener(this);
         btnPreferiti.setOnClickListener(this);
-
     }
 
     @Override
@@ -55,15 +52,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent.putExtra("BOTTONE", bottone);
                 startActivity(intent);
                 break;
-            case R.id.btnPosizioneCorrente:
+            case R.id.btnPreferiti:
                 bottone = 5;
                 intent = new Intent(getApplicationContext(), CentroEcologico.class);
-                intent.putExtra("BOTTONE", bottone);
-                startActivity(intent);
-                break;
-            case R.id.btnPreferiti:
-                bottone = 6;
-                intent = new Intent(getApplicationContext(), Preferiti.class);
                 intent.putExtra("BOTTONE", bottone);
                 startActivity(intent);
                 break;
