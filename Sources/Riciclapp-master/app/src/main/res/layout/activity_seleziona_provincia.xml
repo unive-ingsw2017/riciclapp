@@ -1,30 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.riciclapp.MainActivity">
 
     <include layout="@layout/toolbar_layout" />
 
-    <android.support.constraint.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <android.support.v7.widget.AppCompatTextView
+        <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:textAlignment="center"
-            android:text="TEST"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_height="wrap_content">
 
-    </android.support.constraint.ConstraintLayout>
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnPadova"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/btnPadova"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnBelluno"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnRovigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/btnRovigo"
+                app:layout_constraintEnd_toEndOf="@+id/btnBelluno"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="@+id/btnBelluno"
+                app:layout_constraintTop_toBottomOf="@+id/btnPadova"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnBelluno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/btnBelluno"
+                app:layout_constraintEnd_toEndOf="@+id/btnVenezia"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="@+id/btnVenezia"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnVenezia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/btnVenezia"
+                app:layout_constraintEnd_toEndOf="@+id/btnVicenza"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="@+id/btnVicenza"
+                app:layout_constraintTop_toBottomOf="@+id/btnRovigo"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnVerona"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/btnVerona"
+                app:layout_constraintEnd_toEndOf="@+id/btnVicenza"
+                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintStart_toStartOf="@+id/btnVicenza"
+                app:layout_constraintTop_toBottomOf="@+id/btnVenezia"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnVicenza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/btnVicenza"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnVerona"/>
+
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </ScrollView>
 
 </LinearLayout>

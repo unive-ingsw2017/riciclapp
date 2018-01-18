@@ -114,5 +114,11 @@
     <string name="btn_comune">Dettagli Comune</string>
     <string name="btn_stares">Risultati Statistiche</string>
 
+    <string name="btnBelluno">Belluno</string>
+    <string name="btnPadova">Padova</string>
+    <string name="btnRovigo">Rovigo</string>
+    <string name="btnVenezia">Venezia</string>
+    <string name="btnVerona">Verona</string>
+    <string name="btnVicenza">Vicenza</string>
 
 </resources>

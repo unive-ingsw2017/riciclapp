@@ -5,14 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     AppCompatButton btnGioco, btnStatistiche, btnGuida, btnSelezionaProvincia, btnPosizioneCorrente, btnPreferiti;
+    int bottone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +20,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        btnGioco = findViewById(R.id.btnGioco);
-        btnStatistiche = findViewById(R.id.btnStatistiche);
-        btnGuida = findViewById(R.id.btnGuida);
-        btnSelezionaProvincia = findViewById(R.id.btnSelProvincia);
-        btnPosizioneCorrente = findViewById(R.id.btnPosizioneCorrente);
-        btnPreferiti = findViewById(R.id.btnPreferiti);
+        btnGioco = findViewById(R.id.btnPadova);
+        btnStatistiche = findViewById(R.id.btnRovigo);
+        btnGuida = findViewById(R.id.btnBelluno);
+        btnSelezionaProvincia = findViewById(R.id.btnVenezia);
+        btnPosizioneCorrente = findViewById(R.id.btnVicenza);
+        btnPreferiti = findViewById(R.id.btnVerona);
 
         btnGioco.setOnClickListener(this);
         btnStatistiche.setOnClickListener(this);
@@ -38,45 +36,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.main_menu, menu);
-//        return true;
-//    }
-
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//
-//        switch (item.getItemId()) {
-//            case R.id.preferiti:
-//                startActivity(new Intent(this, Preferiti.class));
-//                return true;
-//            default:
-//                return super.onOptionsItemSelected(item);
-//        }
-//    }
-
     @Override
     public void onClick(View v) {
+        Intent intent;
         switch (v.getId()) {
-            case R.id.btnGioco:
+            case R.id.btnPadova:
                 startActivity(new Intent(this, Gioco.class));
                 break;
-            case R.id.btnGuida:
+            case R.id.btnBelluno:
                 startActivity(new Intent(this, Guida.class));
                 break;
-            case R.id.btnStatistiche:
+            case R.id.btnRovigo:
                 startActivity(new Intent(this, StatisticheHome.class));
                 break;
-            case R.id.btnSelProvincia:
-                startActivity(new Intent(this, SelezionaProvincia.class));
+            case R.id.btnVenezia:
+                bottone = 4;
+                intent = new Intent(getApplicationContext(), SelezionaProvincia.class);
+                intent.putExtra("BOTTONE", bottone);
+                startActivity(intent);
                 break;
-            case R.id.btnPosizioneCorrente:
-                startActivity(new Intent(this, PosizioneCorrente.class));
+            case R.id.btnVicenza:
+                bottone = 5;
+                intent = new Intent(getApplicationContext(), CentroEcologico.class);
+                intent.putExtra("BOTTONE", bottone);
+                startActivity(intent);
                 break;
-            case R.id.btnPreferiti:
-                startActivity(new Intent(this, Preferiti.class));
+            case R.id.btnVerona:
+                bottone = 6;
+                intent = new Intent(getApplicationContext(), Preferiti.class);
+                intent.putExtra("BOTTONE", bottone);
+                startActivity(intent);
                 break;
         }
     }

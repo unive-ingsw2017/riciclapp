@@ -77,6 +77,24 @@
 
         <activity
             android:name=".SelezionaProvincia"
+            android:label="Seleziona Provincia"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".SelezionaComune"
+            android:label="Selezione Comune"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.SelezionaProvincia" />
+        </activity>
+
+        <activity
+            android:name=".CentroEcologico"
             android:label="@string/btn_sel_provincia"
             android:theme="@style/AppTheme" >
             <meta-data
