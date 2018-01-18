@@ -58,6 +58,7 @@ public class SelezionaComune extends AppCompatActivity implements AdapterView.On
                 Intent intent = new Intent(getApplicationContext(), CentroEcologico.class);
                 intent.putExtra("POSIZIONE", pos);
                 intent.putExtra("BOTTONE", bottone);
+                intent.putExtra("PROVINCIA", provincia);
                 startActivity(intent);
             }
         });
@@ -69,6 +70,7 @@ public class SelezionaComune extends AppCompatActivity implements AdapterView.On
         Intent intent = new Intent(getApplicationContext(), CentroEcologico.class);
         intent.putExtra("POSIZIONE", i);
         intent.putExtra("BOTTONE", bottone);
+        intent.putExtra("PROVINCIA", provincia);
         startActivity(intent);
     }
 

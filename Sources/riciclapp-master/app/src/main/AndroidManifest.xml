@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name=".RiciclappApplication"
@@ -95,7 +96,7 @@
 
         <activity
             android:name=".CentroEcologico"
-            android:label="@string/btn_sel_provincia"
+            android:label="Ecocentro"
             android:theme="@style/AppTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

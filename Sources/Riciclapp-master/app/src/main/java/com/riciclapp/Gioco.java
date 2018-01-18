@@ -45,22 +45,7 @@ public class Gioco extends AppCompatActivity {
 
     public void startQuiz(View view) {
 
-//        int quizCategory = 0;  // All
-//
-//        switch (view.getId()) {
-//            case R.id.asia:
-//                quizCategory = 1;
-//                break;
-//            case R.id.america:
-//                quizCategory = 2;
-//                break;
-//            case R.id.europe:
-//                quizCategory = 3;
-//                break;
-//        }
-
         Intent intent = new Intent(getApplicationContext(), Game.class);
-//        intent.putExtra("QUIZ_CATEGORY", quizCategory);
         startActivity(intent);
 
     }

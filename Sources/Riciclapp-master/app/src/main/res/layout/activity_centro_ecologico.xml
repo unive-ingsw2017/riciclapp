@@ -13,15 +13,13 @@
         android:layout_height="match_parent">
 
         <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/text_nome"
+            android:id="@+id/text_nome_comune"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text=""
-            android:textAlignment="center"
             android:textSize="24sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -32,21 +30,20 @@
             app:textAllCaps="true" />
 
         <android.support.v7.widget.AppCompatTextView
-            android:id="@+id/text_dettagli"
+            android:id="@+id/text_dettagli_eco"
             android:layout_width="match_parent"
             android:layout_height="462dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
-            android:text=""
-            android:textAlignment="center"
             android:textSize="20sp"
             android:scrollbars = "vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_nome"
+            app:layout_constraintTop_toBottomOf="@+id/text_nome_comune"
             app:textAllCaps="true" />
+
 
     </android.support.constraint.ConstraintLayout>
 
