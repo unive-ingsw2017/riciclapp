@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -83,8 +85,13 @@ public class CentroEcologico extends AppCompatActivity {
                     "INDIRIZZO : " + "\n" + linea[7] + "\n\n" +
                     "COMUNE : " + "\n" + linea[8] + "\n\n" +
                     "ECOMOBILE : " + "\n" + linea[6] + "\n\n" +
-                    "SOLO RAEE : " + "\n" + linea[10] + "\n\n" +
-                    "PER INFORMAZIONI : " + "\n" + linea[9] + "\n\n");
+                    "SOLO RAEE : " + "\n" + linea[10] + "\n\n" );
+            dettagli.append(
+                    Html.fromHtml(
+                            "PER INFORMAZIONI : "+"<a href=\""+linea[9]+"\">" +linea[9] +"</a>")
+            );
+
+            dettagli.setMovementMethod(LinkMovementMethod.getInstance());
 
             if (pos == preferito && prov_saved.equals(provincia)){
                 star.setImageResource(R.drawable.ic_star_red_24dp);
@@ -120,11 +127,16 @@ public class CentroEcologico extends AppCompatActivity {
                 comune.setText(linea[5]);
                 dettagli.setText(
                         "BACINO : " + "\n" + linea[4] + "\n\n" +
-                        "INDIRIZZO : " + "\n" + linea[7] + "\n\n" +
-                        "COMUNE : " + "\n" + linea[8] + "\n\n" +
-                        "ECOMOBILE : " + "\n" + linea[6] + "\n\n" +
-                        "SOLO RAEE : " + "\n" + linea[10] + "\n\n" +
-                        "PER INFORMAZIONI : " + "\n" + linea[9] + "\n\n");
+                                "INDIRIZZO : " + "\n" + linea[7] + "\n\n" +
+                                "COMUNE : " + "\n" + linea[8] + "\n\n" +
+                                "ECOMOBILE : " + "\n" + linea[6] + "\n\n" +
+                                "SOLO RAEE : " + "\n" + linea[10] + "\n\n" );
+                dettagli.append(
+                        Html.fromHtml(
+                                "PER INFORMAZIONI : "+"<a href=\""+linea[9]+"\">" +linea[9] +"</a>")
+                );
+
+                dettagli.setMovementMethod(LinkMovementMethod.getInstance());
 
                 star.setImageResource(R.drawable.ic_star_red_24dp);
             }
