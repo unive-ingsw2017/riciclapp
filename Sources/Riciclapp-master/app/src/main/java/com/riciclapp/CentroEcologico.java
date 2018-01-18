@@ -18,8 +18,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-
-
 public class CentroEcologico extends AppCompatActivity {
 
     int pos, bottone, preferito;
