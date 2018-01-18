@@ -20,7 +20,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="55dp"
-        android:textAllCaps="true"
         android:textSize="16sp" />
 
     <TextView
@@ -29,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:textAllCaps="true"
         android:textSize="16sp" />
