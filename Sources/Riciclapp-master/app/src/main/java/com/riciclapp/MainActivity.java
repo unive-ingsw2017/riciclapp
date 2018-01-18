@@ -20,12 +20,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        btnGioco = findViewById(R.id.btnPadova);
-        btnStatistiche = findViewById(R.id.btnRovigo);
-        btnGuida = findViewById(R.id.btnBelluno);
-        btnSelezionaProvincia = findViewById(R.id.btnVenezia);
-        btnPosizioneCorrente = findViewById(R.id.btnVicenza);
-        btnPreferiti = findViewById(R.id.btnVerona);
+        btnGioco = findViewById(R.id.btnGioco);
+        btnStatistiche = findViewById(R.id.btnStatistiche);
+        btnGuida = findViewById(R.id.btnGuida);
+        btnSelezionaProvincia = findViewById(R.id.btnSelProvincia);
+        btnPosizioneCorrente = findViewById(R.id.btnPosizioneCorrente);
+        btnPreferiti = findViewById(R.id.btnPreferiti);
 
         btnGioco.setOnClickListener(this);
         btnStatistiche.setOnClickListener(this);
@@ -40,28 +40,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         Intent intent;
         switch (v.getId()) {
-            case R.id.btnPadova:
+            case R.id.btnGioco:
                 startActivity(new Intent(this, Gioco.class));
                 break;
-            case R.id.btnBelluno:
+            case R.id.btnGuida:
                 startActivity(new Intent(this, Guida.class));
                 break;
-            case R.id.btnRovigo:
+            case R.id.btnStatistiche:
                 startActivity(new Intent(this, StatisticheHome.class));
                 break;
-            case R.id.btnVenezia:
+            case R.id.btnSelProvincia:
                 bottone = 4;
                 intent = new Intent(getApplicationContext(), SelezionaProvincia.class);
                 intent.putExtra("BOTTONE", bottone);
                 startActivity(intent);
                 break;
-            case R.id.btnVicenza:
+            case R.id.btnPosizioneCorrente:
                 bottone = 5;
                 intent = new Intent(getApplicationContext(), CentroEcologico.class);
                 intent.putExtra("BOTTONE", bottone);
                 startActivity(intent);
                 break;
-            case R.id.btnVerona:
+            case R.id.btnPreferiti:
                 bottone = 6;
                 intent = new Intent(getApplicationContext(), Preferiti.class);
                 intent.putExtra("BOTTONE", bottone);

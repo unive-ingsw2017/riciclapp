@@ -18,7 +18,7 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnPadova"
+                android:id="@+id/btnGioco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
@@ -27,66 +27,66 @@
                 android:text="@string/btn_gioco"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnBelluno"
+                app:layout_constraintTop_toBottomOf="@+id/btnGuida"
                 tools:text="Test conoscenze" />
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnRovigo"
+                android:id="@+id/btnStatistiche"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/btn_statistiche"
-                app:layout_constraintEnd_toEndOf="@+id/btnBelluno"
+                app:layout_constraintEnd_toEndOf="@+id/btnGuida"
                 app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnBelluno"
-                app:layout_constraintTop_toBottomOf="@+id/btnPadova"
+                app:layout_constraintStart_toStartOf="@+id/btnGuida"
+                app:layout_constraintTop_toBottomOf="@+id/btnGioco"
                 tools:text="Statistiche sui rifiuti" />
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnBelluno"
+                android:id="@+id/btnGuida"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/btn_guida"
-                app:layout_constraintEnd_toEndOf="@+id/btnVenezia"
+                app:layout_constraintEnd_toEndOf="@+id/btnSelProvincia"
                 app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnVenezia"
+                app:layout_constraintStart_toStartOf="@+id/btnSelProvincia"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="guida al riciclaggio" />
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnVenezia"
+                android:id="@+id/btnSelProvincia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/btn_sel_provincia"
-                app:layout_constraintEnd_toEndOf="@+id/btnVicenza"
+                app:layout_constraintEnd_toEndOf="@+id/btnPosizioneCorrente"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/btnVicenza"
-                app:layout_constraintTop_toBottomOf="@+id/btnRovigo"
+                app:layout_constraintStart_toStartOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintTop_toBottomOf="@+id/btnStatistiche"
                 tools:text="Lista Ecocentri" />
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnVerona"
+                android:id="@+id/btnPreferiti"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:text="@string/btn_preferiti"
-                app:layout_constraintEnd_toEndOf="@+id/btnVicenza"
+                app:layout_constraintEnd_toEndOf="@+id/btnPosizioneCorrente"
                 app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnVicenza"
-                app:layout_constraintTop_toBottomOf="@+id/btnVenezia"
+                app:layout_constraintStart_toStartOf="@+id/btnPosizioneCorrente"
+                app:layout_constraintTop_toBottomOf="@+id/btnSelProvincia"
                 tools:text="Ecocentri Preferiti" />
 
             <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnVicenza"
+                android:id="@+id/btnPosizioneCorrente"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
@@ -95,7 +95,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnVerona"
+                app:layout_constraintTop_toBottomOf="@+id/btnPreferiti"
                 tools:text="Ecocentro più vicino" />
 
 
