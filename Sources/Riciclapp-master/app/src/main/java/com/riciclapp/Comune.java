@@ -75,24 +75,23 @@ public class Comune extends AppCompatActivity {
 
         comune.setText(linea[1]);
         dettagli.setText(
-                "Bacino : " + linea[0] + "\n" +
-                "Popolazione(n°) : " + linea[2] + "\n" +
-                "SECCO(kg) : " + linea[3] + "\n" +
-                "VERDE(kg) : " + linea[4] + "\n" +
-                "VETRO(kg) : " + linea[5] + "\n" +
-                "CARTA_CARTONE(kg) : " + linea[6] + "\n" +
-                "PLASTICA(kg) : " + linea[7] + "\n" +
-                "IMBALLAGGIMETALLICI(kg) : " + linea[8] + "\n" +
+                "Bacino : \t" + linea[0] + "\n" +
+                "Popolazione(n°) : \t" + linea[2] + "\n" +
+                "Percentuale Raccolta Differenziata : \t" + linea[17] + "\n" +
+                "Rifiuti TOTALE(kg) : \t" + linea[16] + "\n" +
+                "Secco(kg) : \t" + linea[3] + "\n" +
+                "Verde(kg) : \t" + linea[4] + "\n" +
+                "Vetro(kg) : \t" + linea[5] + "\n" +
+                "Carta e Cartona(kg) : \t" + linea[6] + "\n" +
+                "Plastica(kg) : \t" + linea[7] + "\n" +
+                "Imballaggi Metallici(kg) : \t" + linea[8] + "\n" +
                 "RAEE(kg) : " + linea[9] + "\n" +
-                "MULTIMATERIALE(kg) : " + linea[10] + "\n" +
-                "ALTRORECUPERABILE(kg) : " + linea[11] + "\n" +
-                "RIFIUTIPARTICOLARI(kg) : " + linea[12] + "\n" +
-                "INGOMBRANTI(KG) : " + linea[13] + "\n" +
-                "SPAZZAMENTO(kg) : " + linea[14] + "\n" +
-                "CER200301200203(kg) : " + linea[15] + "\n" +
-                "RIFIUTOTOTALE(kg) : " + linea[16] + "\n" +
-                "RACCOLTA DIFFERENZIATA % : " + linea[17] + "\n" +
-                "UTENZE : " + linea[18] + "\n");
+                "Multimatreriale(kg) : \t" + linea[10] + "\n" +
+                "Altro(kg) : \t" + linea[11] + "\n" +
+                "Rifiuti Particolati(kg) : \t" + linea[12] + "\n" +
+                "Ingombranti(KG) : \t" + linea[13] + "\n" +
+                "Spazzamento(kg) : \t" + linea[14] + "\n" +
+                "Utenze(n°) : \t" + linea[18] + "\n");
 
 
     }

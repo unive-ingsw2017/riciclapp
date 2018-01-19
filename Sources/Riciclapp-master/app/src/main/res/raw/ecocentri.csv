@@ -75,7 +75,7 @@
 025;015;025015;BL;BELLUNO;Comelico Superiore;-;Moie' Ponte del Salto;Comelico Superiore;www.provincia.belluno.it/;-;
 024;006;024006;VI;VICENZA;Arcugnano;-;Via Val di Burra;Arcugnano;www.utilya.it;-;
 026;087;026087;TV;SINISTRA PIAVE;Valdobbiadene;-;Via Val dei Faveri;Valdobbiadene;www.savnoservizi.it;-;
-029;006;029006;RO;ROVIGO;Bergantino;-;Via Vaccara 486/A;Bergantino;www.ecoambienterovigo.i;-;
+029;006;029006;RO;ROVIGO;Bergantino;-;Via Vaccara 486/A;Bergantino;www.ecoambienterovigo.it;-;
 023;021;023021;VR;VERONA NORD;Castel d'Azzano;-;Via Toscanini;Castel d'Azzano;www.halleysac.it/c023021/hh/index.php;-;
 024;040;024040;VI;VICENZA;Fara Vicentino;-;Via Torricelle;Fara Vicentino;www.altovicentinoambiente.it;-;
 023;084;023084;VR;VERONA SUD;Sorga';-;Via Torre Masino;Sorga';www.comune.sorga.vr.it;-;
@@ -92,7 +92,7 @@
 024;034;024034;VI;VICENZA;Cornedo Vicentino;-;Via Silvio Pellico;Cornedo Vicentino;www.agnochiampoambiente.it;-;
 024;116;024116;VI;VICENZA;Vicenza;-;Via Silvio De Faveri 7;Vicenza;www.aimvicenza.it;-;
 023;016;023016;VR;VERONA NORD;Buttapietra;-;Via Settimo di Gallese;Buttapietra;www.comunedibuttapietra.it;-;
-028;010;028010;PD;PADOVA SUD;Barbona;-;Via Serragli 84;Piacenza d’Adige;www.bacinopd3.it;x;
+028;010;028010;PD;PADOVA SUD;Barbona;-;Via Serragli 84;Piacenza dï¿½Adige;www.bacinopd3.it;x;
 028;029;028029;PD;PADOVA SUD;Castelbaldo;-;-;conferimento nei centri di raccolta di Casale di Scodosia; Merlara; Piacenza d'Adige;www.bacinopd3.it;-;
 028;043;028043;PD;PADOVA SUD;Granze;-;Via Serragli 84;Piacenza d'Adige;www.bacinopd3.it;x;
 028;049;028049;PD;PADOVA SUD;Masi;-;Via Zurlara 5/A ;Merlara;www.bacinopd3.it;-;
@@ -102,7 +102,7 @@
 028;067;028067;PD;PADOVA SUD;Ponso;-;-;conferimento nei centri di raccolta di Casale di Scodosia; Merlara; Piacenza d'Adige;www.bacinopd3.it;-;
 028;081;028081;PD;PADOVA SUD;Santa Margherita d'Adige;-;-;conferimento nei centri di raccolta di Casale di Scodosia; Merlara; Piacenza d'Adige;www.bacinopd3.it;-;
 028;095;028095;PD;PADOVA SUD;Urbana;-;-;conferimento nei centri di raccolta di Casale di Scodosia; Merlara; Piacenza d'Adige;www.bacinopd3.it;-;
-028;098;028098;PD;PADOVA SUD;Vighizzolo d'Este;-;Via Serragli 84;Piacenza d’Adige;www.bacinopd3.it;-;
+028;098;028098;PD;PADOVA SUD;Vighizzolo d'Este;-;Via Serragli 84;Piacenza dï¿½Adige;www.bacinopd3.it;-;
 028;102;028102;PD;PADOVA SUD;Villa Estense;-;Via Serragli 84;Piacenza d'Adige;www.bacinopd3.it;-;
 026;086;026086;TV;DESTRA PIAVE;Treviso;-;Viale della Serenissima - Porta del Leon;Treviso;www.contarina.it;-;
 023;023;023023;VR;VERONA NORD;Cavaion Veronese;-;Via Sega;Cavaion Veronese;www.consorziovr2.it;-;
@@ -214,7 +214,7 @@
 027;022;027022;VE;VENEZIA;Meolo;-;Via Marteggia 1;Meolo;www.gruppoveritas.it;-;
 027;037;027037;VE;VENEZIA;Scorze';-;Via Marmolada 1;Scorze';www.gruppoveritas.it;-;
 026;077;026077;TV;DESTRA PIAVE;San Zenone degli Ezzelini;-;Via Marini;San Zenone degli Ezzelini;www.contarina.it;-;
-027;031;027031;VE;VENEZIA;Quarto d'Altino;-;Via Marconi ;Quarto d'Altino;www.gruppoveritas.it;-;
+027;031;027031;VE;VENEZIA;Quarto d'Altino;-;Via Marconiï¿½;Quarto d'Altino;www.gruppoveritas.it;-;
 026;067;026067;TV;SINISTRA PIAVE;Revine Lago;-;Via Marconi - Z.I. Lago;Revine Lago;www.comune.revine-lago.tv.it;-;
 026;084;026084;TV;SINISTRA PIAVE;Tarzo;-;Via Marconi - Z.I. Lago;Revine Lago;www.comune.revine-lago.tv.it;-;
 023;022;023022;VR;VERONA NORD;Castelnuovo del Garda;-;Via Mantovana - Cavalcaselle;Castelnuovo del Garda;www.comune.castelnuovodelgarda.vr.it;-;
@@ -247,7 +247,7 @@
 029;032;029032;RO;ROVIGO;Melara;Area mercato;-;-;www.ecoambienterovigo.i;-;
 023;029;023029;VR;VERONA SUD;Concamarise;-;centro di raccolta non presente;-;www.comune.concamarise.vr.it;-;
 026;082;026082;TV;DESTRA PIAVE;Spresiano;-;Via Indipendenza;Spresiano;www.contarina.it;-;
-023;051;023051;VR;VERONA NORD;Mozzecane;-;Via I° Maggio - Area Artigianale Fontanone Capoluogo Comunale;Mozzecane;www.comunemozzecane.it;-;
+023;051;023051;VR;VERONA NORD;Mozzecane;-;Via Iï¿½ Maggio - Area Artigianale Fontanone Capoluogo Comunale;Mozzecane;www.comunemozzecane.it;-;
 026;070;026070;TV;SINISTRA PIAVE;Salgareda;-;Via Guizza;Salgareda;www.savnoservizi.it;-;
 023;082;023082;VR;VERONA NORD;Sommacampagna;-;Via Gorgo - Custoza Di Sommacampagna;Sommacampagna;www.comune.sommacampagna.vr.it;-;
 026;024;026024;TV;DESTRA PIAVE;Crespano del Grappa;-;Via Giare;Crespano del Grappa;www.contarina.it;-;
@@ -472,10 +472,10 @@
 023;054;023054;VR;VERONA SUD;Nogarole Rocca;-;Via Adige - Fraz. Pradelle;Nogarole Rocca;www.comune.nogarolerocca.vr.it;-;
 026;049;026049;TV;SINISTRA PIAVE;Motta di Livenza;-;Via A. Moro;Motta di Livenza;www.savnoservizi.it;-;
 028;088;028088;PD;PADOVA SUD;Stanghella;-;Via A. Einstein;Stanghella;www.comune.stanghella.pd.it;-;
-024;103;024103;VI;VICENZA;Sovizzo;-;Via 1° Maggio N. 60;Sovizzo;www.agnochiampoambiente.it;-;
-024;108;024108;VI;VICENZA;Torri di Quartesolo;-;Via 1° Maggio;Torri di Quartesolo;www.soraris.it;-;
+024;103;024103;VI;VICENZA;Sovizzo;-;Via 1ï¿½ Maggio N. 60;Sovizzo;www.agnochiampoambiente.it;-;
+024;108;024108;VI;VICENZA;Torri di Quartesolo;-;Via 1ï¿½ Maggio;Torri di Quartesolo;www.soraris.it;-;
 023;040;023040;VR;VERONA SUD;Isola della Scala;-;Traversa di Via Caduti sul lavoro;Isola della Scala;www.comune.isoladellascala.vr.it;-;
-023;063;023063;VR;VERONA NORD;Ronca';-;Terrossa di Ronca' ;Terrossa di Ronca' ;www.comuneronca.eu;-;
+023;063;023063;VR;VERONA NORD;Ronca';-;Terrossa di Ronca'ï¿½;Terrossa di Ronca'ï¿½;www.comuneronca.eu;-;
 023;091;023091;VR;VERONA CITTA';Verona;-;Strada Mattaranetta 41;Verona;www.amiavr.it;-;
 026;062;026062;TV;DESTRA PIAVE;Povegliano;-;Via Prato della Valle - Z.I. Povegliano;Povegliano;www.contarina.it;-;
 023;096;023096;VR;VERONA NORD;Villafranca di Verona;-;Strada Della Leva';Villafranca di Verona;www.comune.villafranca.vr.it;-;
@@ -585,10 +585,10 @@
 028;104;028104;PD;BRENTA;Villanova di Camposampiero;-;Via Marconi z.i.;Villanova di Camposampiero;www.etraspa.it;-;
 028;072;028072;PD;BRENTA;Rubano;-;Via Petrarca;Mestrino;www.etraspa.it;-;
 028;073;028073;PD;BRENTA;Saccolongo;-;Via Petrarca;Mestrino;www.etraspa.it;-;
-028;005;028005;PD;PADOVA SUD;Arqua' Petrarca;-;Via Serragli 84;Piacenza d’Adige;www.comune.arqua.pd.it;-;
+028;005;028005;PD;PADOVA SUD;Arqua' Petrarca;-;Via Serragli 84;Piacenza dï¿½Adige;www.comune.arqua.pd.it;-;
 028;009;028009;PD;PADOVA SUD;Baone;-;centro di raccolta non presente;-;www.comune.baone.pd.it;-;
-028;012;028012;PD;PADOVA SUD;Boara Pisani;-;Via Serragli 84;Piacenza d’Adige;www.comune.boarapisani.pd.it;-;
-028;022;028022;PD;PADOVA SUD;Carceri;-;Via Serragli 84;Piacenza d’Adige;www.bacinopd3.it;x;
+028;012;028012;PD;PADOVA SUD;Boara Pisani;-;Via Serragli 84;Piacenza dï¿½Adige;www.comune.boarapisani.pd.it;-;
+028;022;028022;PD;PADOVA SUD;Carceri;-;Via Serragli 84;Piacenza dï¿½Adige;www.bacinopd3.it;x;
 028;031;028031;PD;PADOVA SUD;Cinto Euganeo;-;centro di raccolta non presente;-;www.comune.cintoeuganeo.pd.it;-;
 028;040;028040;PD;BRENTA;Galzignano Terme;-;centro di raccolta non presente;-;www.galzignanoterme.org;-;
 028;047;028047;PD;PADOVA SUD;Lozzo Atestino;-;centro di raccolta non presente;-;www.comune.lozzoatestino.pd.it;-;
@@ -607,7 +607,7 @@
 024;113;024113;VI;VICENZA;Valli del Pasubio;-;centro di raccolta non presente;-;www.comune.vallidelpasubio.vi.it;-;
 024;037;024037;VI;VICENZA;Crespadoro;-;centro di raccolta non presente;-;www.comune.crespadoro.vi.it;-;
 024;094;024094;VI;VICENZA;San Pietro Mussolino;-;Via Casiglione; loc. Arso;Chiampo;www.comune.sanpietromussolino.vi.it;-;
-024;009;024009;VI;BRENTA;Asiago;-;via Ceresara ;Asiago;www.etraspa.it;-;
+024;009;024009;VI;BRENTA;Asiago;-;via Ceresaraï¿½;Asiago;www.etraspa.it;-;
 024;039;024039;VI;BRENTA;Enego;-;centro di raccolta non presente;-;www.etraspa.it;-;
 024;041;024041;VI;BRENTA;Foza;via Roma;-;-;www.etraspa.it;-;
 024;042;024042;VI;BRENTA;Gallio;-;centro di raccolta non presente;-;www.etraspa.it;-;

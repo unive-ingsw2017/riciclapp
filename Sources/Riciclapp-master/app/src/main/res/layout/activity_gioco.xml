@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.riciclapp.Gioco"
     android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
     <include layout="@layout/toolbar_layout" />
 
@@ -26,19 +27,22 @@
         android:layout_marginTop="50dp"
         android:onClick="startQuiz"
         android:text="@string/btn_start"
-        android:textSize="50dp"
-        android:background="@drawable/button_selector"/>
+        android:background="@drawable/button_selector"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="50dp" />
 
     <TextView
         android:id="@+id/maxScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text=""
+        android:fontFamily="casual"
         android:textAlignment="center"
-        android:textColor="#000000"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/orange_temp"
         android:textSize="30sp"
-        />
+        android:textStyle="bold" />
 
     <!--<Button-->
         <!--android:id="@+id/asia"-->
