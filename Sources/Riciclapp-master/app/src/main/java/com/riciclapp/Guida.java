@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
 import android.support.v7.widget.Toolbar;
+import android.text.Html;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
@@ -55,35 +56,35 @@ public class Guida extends AppCompatActivity implements View.OnClickListener{
         switch (v.getId()) {
             case R.id.btnCarta:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.carta));
+                testoGuida.setText(Html.fromHtml(getString(R.string.carta)));
                 break;
             case R.id.btnOrganico:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.organico));
+                testoGuida.setText(Html.fromHtml(getString(R.string.organico)));
                 break;
             case R.id.btnPlaticaLattine:
                 titoloGuida.setText(((Button)v).getText().toString().replace("\n", ", "));
-                testoGuida.setText(getString(R.string.plasticalattine));
+                testoGuida.setText(Html.fromHtml(getString(R.string.plasticalattine)));
                 break;
             case R.id.btnVetroLattine:
                 titoloGuida.setText(((Button)v).getText().toString().replace("\n", ", "));
-                testoGuida.setText(getString(R.string.vetrolattine));
+                testoGuida.setText(Html.fromHtml(getString(R.string.vetrolattine)));
                 break;
             case R.id.btnIndifferenziato:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.secco));
+                testoGuida.setText(Html.fromHtml(getString(R.string.secco)));
                 break;
             case R.id.btnRaee:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.raee));
+                testoGuida.setText(Html.fromHtml(getString(R.string.raee)));
                 break;
             case R.id.btnRup:
                 titoloGuida.setText(((Button)v).getText().toString());
-                testoGuida.setText(getString(R.string.rup));
+                testoGuida.setText(Html.fromHtml(getString(R.string.rup)));
                 break;
             case R.id.btnPile:
                 titoloGuida.setText(((Button)v).getText().toString().replace("\n", ", "));
-                testoGuida.setText(getString(R.string.pile));
+                testoGuida.setText(Html.fromHtml(getString(R.string.pile)));
                 break;
         }
     }

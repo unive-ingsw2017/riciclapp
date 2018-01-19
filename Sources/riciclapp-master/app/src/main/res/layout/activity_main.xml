@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.riciclapp.MainActivity">
+    tools:context="com.riciclapp.MainActivity"
+    android:background="@drawable/background">
 
     <include layout="@layout/toolbar_layout" />
 
@@ -17,45 +18,89 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="240dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:layout_marginEnd="10dp"-->
+                <!--android:layout_marginStart="10dp"-->
+                <!--android:background="@drawable/box_contorno"-->
+                <!--app:layout_constraintTop_toBottomOf="parent">-->
+            <!--</FrameLayout>-->
+
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnGuida"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_guida"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:background="@drawable/button_selector" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnGioco"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_gioco"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnGuida"
-                android:background="@drawable/button_selector" />
+                app:layout_constraintTop_toBottomOf="@+id/btnGuida" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnStatistiche"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
+                android:text="@string/btn_statistiche"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnGioco" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="196dp"
+                android:background="@drawable/box_contorno"
+                app:layout_constraintTop_toBottomOf="@+id/btnStatistiche"
+                >
+
+            </FrameLayout>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/text_Ecocentri"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
-                android:text="@string/btn_statistiche"
+                android:text="CERCA IL TUO ECOCENTRO"
+                android:textAlignment="center"
+                android:textColor="@color/orange_temp"
+                android:textSize="25sp"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnGioco"
-                android:background="@drawable/button_selector" />
-
+                app:layout_constraintTop_toBottomOf="@+id/btnStatistiche"
+                app:textAllCaps="false" />
 
 
             <android.support.v7.widget.AppCompatButton
@@ -64,26 +109,30 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_sel_provincia"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnStatistiche"
-                android:background="@drawable/button_selector" />
+                app:layout_constraintTop_toBottomOf="@+id/text_Ecocentri" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnPreferiti"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_preferiti"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnSelProvincia" />
+
+
 
         </android.support.constraint.ConstraintLayout>
 

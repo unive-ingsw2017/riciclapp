@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background">
 
     <include layout="@layout/toolbar_layout" />
 
@@ -26,7 +27,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
+                android:textStyle="bold"
                 android:text="@string/btn_carta"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -35,7 +43,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_organico"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="56dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -44,7 +59,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_plastica_lattine"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="149dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -53,7 +75,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_vetro_lattine"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="249dp"
                 tools:layout_editor_absoluteY="0dp" />
 
@@ -70,7 +99,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_indifferenziata"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="119dp" />
 
@@ -79,7 +115,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_raee"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="149dp"
                 tools:layout_editor_absoluteY="158dp" />
 
@@ -88,7 +131,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_rup"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="127dp"
                 tools:layout_editor_absoluteY="420dp" />
 
@@ -97,7 +147,14 @@
                 android:layout_width="0dp"
                 android:layout_height="80dp"
                 android:layout_weight="1"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
                 android:text="@string/btn_pile_farmaci"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
                 tools:layout_editor_absoluteX="249dp"
                 tools:layout_editor_absoluteY="269dp" />
         </LinearLayout>
@@ -108,10 +165,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="@string/btn_carta"
+            android:text="Seleziona Categoria"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-            android:textColor="#000000" />
+            android:textColor="@color/orange_temp"
+            android:textStyle="bold"
+            app:fontFamily="casual"
+            app:textAllCaps="true" />
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/textGuidaTesto"
@@ -119,9 +179,9 @@
             android:layout_height="match_parent"
             android:gravity="start|center"
             android:scrollbars="vertical"
-            android:text="@string/carta"
-            android:textColor="#000000"
-            android:textSize="22dp" />
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            app:fontFamily="casual" />
 
     </LinearLayout>
 

@@ -3,8 +3,8 @@
     <string name="btn_gioco">Test Conoscenze</string>
     <string name="btn_statistiche">Statistiche sui rifiuti</string>
     <string name="btn_guida">Guida al riciclaggio</string>
-    <string name="btn_sel_provincia">Lista Ecocentri</string>
-    <string name="btn_preferiti">Ecocentri Preferiti</string>
+    <string name="btn_sel_provincia">Seleziona la provincia</string>
+    <string name="btn_preferiti">Ecocentro Preferito</string>
     <string name="btn_posizione_corrente">Ecocentro più vicino</string>
     <string name="menu_item_preferiti">Errore!!</string>
 
@@ -15,82 +15,148 @@
     <string name="btn_indifferenziata">Secco</string>
     <string name="btn_raee">RAEE</string>
     <string name="btn_rup">RUP</string>
-    <string name="btn_pile_farmaci">Pile\nFarmaci\nAbiti\nOli</string>
-    <string name="lorem_ipsum">
-        Inizio\n\n
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae urna massa. Vivamus sit amet diam et ipsum porta fringilla sit amet at odio. Nunc pellentesque erat luctus nulla malesuada venenatis. Duis sodales scelerisque faucibus. Nullam eu est vitae metus tristique vestibulum. In eu nibh libero. Ut auctor lorem erat, non imperdiet libero congue vel. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in metus id eros lacinia vehicula. Nunc sit amet dui interdum, molestie purus id, viverra neque.
-
-        Vestibulum vehicula, lacus eu lacinia gravida, augue tortor luctus turpis, nec pharetra lorem eros sed sapien. Nunc volutpat dictum fermentum. Phasellus porttitor nunc nunc, eu ornare eros commodo non. Curabitur sed pharetra orci. Etiam vehicula fringilla tellus, fermentum hendrerit neque tempus sit amet. Maecenas in est venenatis, tempus orci id, maximus odio. Duis pretium fringilla scelerisque. Donec sem odio, dictum quis finibus quis, tincidunt eu velit. Nulla vitae ante sodales, volutpat dui sit amet, condimentum urna. Pellentesque vestibulum turpis lectus, eget semper dolor pretium sit amet.
-
-        Proin a interdum nisi, eu sollicitudin ante. Duis finibus, enim mattis lacinia tempus, arcu ipsum rhoncus urna, ac facilisis felis ipsum vel nibh. Praesent varius augue tortor, ut vehicula velit luctus vel. Donec dapibus, libero id convallis vulputate, nunc tortor mollis turpis, ut tempus est augue quis est. Sed fermentum sollicitudin felis, nec sollicitudin magna rhoncus eu. Aliquam cursus consectetur tellus sed ultricies. Quisque consequat maximus sodales. Ut semper, augue ut dignissim suscipit, arcu sem commodo libero, sit amet auctor quam orci et nisl. Donec congue risus eu erat facilisis, id efficitur sem condimentum. Fusce mollis, felis a placerat congue, risus purus vestibulum eros, eget lobortis tortor metus eu orci. Integer ut condimentum est, at tempor sem.
-        \n\n Fine
-    </string>
+    <string name="btn_pile_farmaci">Pile\nFarmaci\nAbiti e Oli</string>
     <string name="carta">
-        SI:\n\n
-        Giornali, riviste, libri, quaderni, carta da pacchi, cartoncini, sacchetti di carta, scatole di cartone per scarpe e alimenti (pasta, riso, sale, ecc.), fustini dei detersivi, fotocopie e fogli vari, imballaggi di cartone, poliaccoppiati (tetrapak e cartoni per bevande in genere), carte che contengono piccole parti di materiale diverso (finestre di plastica sulle buste o sui cartoni di pasta).\n\n
-        NO:\n\n
-        Copertine plastificate, carta unta o sporca di colla o altre sostanze, carta oleata, carta chimica per fax o autocopiante, carta carbone, carta da parati, carta pergamena, carta da forno, bicchieri e piatti di carta/plastica.\n\n
-        COME:\n\n
-        I cartoni e le scatole vanno ripiegati per ridurne il volume, è opportuno togliere graffette di metallo e nastro adesivo.
+        <![CDATA[
+        <h1><font color="green">SI:</font></h1>
+        <h3>Giornali, riviste, libri, quaderni, carta da pacchi, cartoncini, sacchetti di carta, scatole di cartone per scarpe e alimenti (pasta, riso, sale, ecc.),
+        fustini dei detersivi, fotocopie e fogli vari, imballaggi di cartone, poliaccoppiati (tetrapak e cartoni per bevande in genere), carte che contengono piccole
+        parti di materiale diverso (finestre di plastica sulle buste o sui cartoni di pasta).</h3>
+        <h1><font color="red">NO:</font></h1>
+        <h3>Copertine plastificate, carta unta o sporca di colla o altre sostanze, carta oleata, carta chimica per fax o autocopiante, carta carbone, carta da parati,
+        carta pergamena, carta da forno, bicchieri e piatti di carta/plastica.</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>I cartoni e le scatole vanno ripiegati per ridurne il volume, è opportuno togliere graffette di metallo e nastro adesivo.</h3>
+        ]]>
     </string>
     <string name="organico">
-        SI:\n\n
-        Scarti di provenienza alimentare e vegetale ad alta umidità: scarti di cucina, scarti di frutta e verdura, alimenti deteriorati, fondi di caffè e filtri di tè, gusci d’uovo, piatti e bicchieri in bio-plastica (biodegradabili), bucce di frutta, noccioli, salviette di carta unte (scottex, fazzoletti di carta), piante recise e potature di piccole piante, pane, ceneri spente di caminetti, piccoli ossi e gusci di molluschi.\n\n
-        NO:\n\n
-        Alimenti liquidi, ossi di grandi dimensioni, mozziconi di sigaretta, lettiere per animali, grassi e oli, legno trattato o verniciato o in grosse pezzature, alimenti confezionati e qualsiasi rifiuto di natura non organica (pannolini, assorbenti, ecc.).\n\n
-        COME:\n\n
-        Gli scarti verdi devono essere inseriti sfusi all’interno del contenitore; gli scarti alimentari, invece, devono essere introdotti nel contenitore raccolti in sacchetti biodegradabili in mais (tipo Mater-Bi) o in carta (es. quelli del pane). Chi possiede un giardino di dimensioni sufficienti può praticare il compostaggio domestico e accedere agli incentivi previsti dal proprio Comune.
+        <![CDATA[
+        <h1><font color="green">SI:</font></h1>
+        <h3>Scarti di provenienza alimentare e vegetale ad alta umidità: scarti di cucina, scarti di frutta e verdura, 
+		alimenti deteriorati, fondi di caffè e filtri di tè, gusci d’uovo, piatti e bicchieri in bio-plastica (biodegradabili), 
+		bucce di frutta, noccioli, salviette di carta unte (scottex, fazzoletti di carta), piante recise e potature di piccole 
+		piante, pane, ceneri spente di caminetti, piccoli ossi e gusci di molluschi.</h3>
+        <h1><font color="red">NO:</font></h1>
+        <h3>Alimenti liquidi, ossi di grandi dimensioni, mozziconi di sigaretta, lettiere per animali, grassi e oli, 
+		legno trattato o verniciato o in grosse pezzature, alimenti confezionati e qualsiasi rifiuto di natura non organica 
+		(pannolini, assorbenti, ecc.).</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>Gli scarti verdi devono essere inseriti sfusi all’interno del contenitore; gli scarti alimentari, invece, 
+		devono essere introdotti nel contenitore raccolti in sacchetti biodegradabili in mais (tipo Mater-Bi) o in 
+		carta (es. quelli del pane). Chi possiede un giardino di dimensioni sufficienti può praticare il compostaggio 
+		domestico e accedere agli incentivi previsti dal proprio Comune.</h3>
+        ]]>
     </string>
     <string name="plasticalattine">
-        SI:\n\n
-        Tutti gli imballaggi indicati con le sigle PE, PP, PVC, PET, PS: bottiglie di acqua minerale e bibite, flaconi (es. detergenti e cosmetici liquidi), vaschette per alimenti in plastica o polistirolo, pellicole per alimenti, confezioni e sacchetti in plastica per alimenti, reti per frutta e verdura, cassette in plastica per frutta, ecc. Lattine per bevande e alimenti (bibite, olio, ecc.), scatolette per la conservazione dei cibi (scatole di pelati, piselli, tonno, ecc.), scatole e vaschette di metallo, lattine da cibo per animali, tappi e chiusure per vasi e bottiglie, bombolette esaurite per alimenti e prodotti per l’igiene personale che riportino la sigla FE40 o ALU41 (es. deodoranti, lacche, panna).
-        \n\nNO:\n\n
-        Tutto ciò che non è un imballaggio plastico, di alluminio o acciaio: stoviglie di plastica, giocattoli, tetrapak, CD/DVD/musicassette/VHS e relative custodie, borse/zainetti/valige, materiali in plastica rigida (grucce, appendiabiti, complementi d’arredo e casalinghi, ecc.). Rifiuti di grandi dimensioni. Barattoli/ lattine che abbiano contenuto prodotti chimici pericolosi (vernici, solventi, oli motore, benzine, ecc.).
-        \n\nCOME:\n\n
-        Sgocciolare ed eventualmente sciacquare i contenitori sporchi. Gli imballaggi non devono contenere residui di rifiuti organici e/o sostanze pericolose e devono essere schiacciati per ridurre i volumi.
+        <![CDATA[
+        <h1><font color="green">SI:</font></h1>
+        <h3>Tutti gli imballaggi indicati con le sigle PE, PP, PVC, PET, PS: bottiglie di acqua 
+		minerale e bibite, flaconi (es. detergenti e cosmetici liquidi), vaschette per alimenti in plastica o 
+		polistirolo, pellicole per alimenti, confezioni e sacchetti in plastica per alimenti, reti per frutta 
+		e verdura, cassette in plastica per frutta, ecc. Lattine per bevande e alimenti (bibite, olio, ecc.), 
+		scatolette per la conservazione dei cibi (scatole di pelati, piselli, tonno, ecc.), scatole e vaschette 
+		di metallo, lattine da cibo per animali, tappi e chiusure per vasi e bottiglie, bombolette esaurite per 
+		alimenti e prodotti per l’igiene personale che riportino la sigla FE40 o ALU41 (es. deodoranti, lacche, panna).</h3>
+        <h1><font color="red">NO:</font></h1>
+        <h3>Tutto ciò che non è un imballaggio plastico, di alluminio o acciaio: stoviglie di plastica, giocattoli, 
+		tetrapak, CD/DVD/musicassette/VHS e relative custodie, borse/zainetti/valige, materiali in plastica rigida 
+		(grucce, appendiabiti, complementi d’arredo e casalinghi, ecc.). Rifiuti di grandi dimensioni. Barattoli/ lattine 
+		che abbiano contenuto prodotti chimici pericolosi (vernici, solventi, oli motore, benzine, ecc.).</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>Sgocciolare ed eventualmente sciacquare i contenitori sporchi. Gli imballaggi non devono contenere 
+		residui di rifiuti organici e/o sostanze pericolose e devono essere schiacciati per ridurre i volumi.</h3>
+        ]]>
     </string>
     <string name="vetrolattine">
-        SI:\n\n
-        Contenitori di vetro (bottiglie, barattoli, vasetti per alimenti, flaconi, bicchieri in vetro, ecc.), lattine per bevande e alimenti (bibite, olio, ecc.), scatolette per la conservazione dei cibi (scatole di pelati, piselli, tonno, ecc.), scatole e vaschette di metallo, lattine da cibo per animali in alluminio, tappi e chiusure per vasi e bottiglie, bombolette esaurite per alimenti e prodotti per l’igiene personale che riportino la sigla FE40 o ALU41 (es. deodoranti, lacche, panna).
-        \n\nNO:\n\n
-        Tutto quello che non è vetro, alluminio o acciaio: specchi e cristalli, occhiali, pirofile, ceramica, porcellana, lampade e neon, vetro accoppiato, vetro retinato, rifiuti di grandi dimensioni, barattoli o lattine che abbiano contenuto prodotti chimici pericolosi (vernici, solventi, oli motore, benzine, ecc.).
-        \n\nCOME:\n\n
-        Vanno inseriti direttamente privi di liquido e/o prodotto; i contenitori sporchi devono essere ben sgocciolati e sciacquati. Barattoli e lattine vanno schiacciati per ridurne i volumi.
+        <![CDATA[
+        <h1><font color="green">SI:</font></h1>
+        <h3>Contenitori di vetro (bottiglie, barattoli, vasetti per alimenti, flaconi, bicchieri in vetro, ecc.), 
+		lattine per bevande e alimenti (bibite, olio, ecc.), scatolette per la conservazione dei cibi (scatole di 
+		pelati, piselli, tonno, ecc.), scatole e vaschette di metallo, lattine da cibo per animali in alluminio, 
+		tappi e chiusure per vasi e bottiglie, bombolette esaurite per alimenti e prodotti per l’igiene personale 
+		che riportino la sigla FE40 o ALU41 (es. deodoranti, lacche, panna).</h3>
+        <h1><font color="red">NO:</font></h1>
+        <h3>Tutto quello che non è vetro, alluminio o acciaio: specchi e cristalli, occhiali, pirofile, 
+		ceramica, porcellana, lampade e neon, vetro accoppiato, vetro retinato, rifiuti di grandi dimensioni, 
+		barattoli o lattine che abbiano contenuto prodotti chimici pericolosi (vernici, solventi, oli motore, benzine, ecc.).</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>Vanno inseriti direttamente privi di liquido e/o prodotto; i contenitori sporchi devono essere ben sgocciolati 
+		e sciacquati. Barattoli e lattine vanno schiacciati per ridurne i volumi.</h3>
+        ]]>
     </string>
     <string name="secco">
-        SI:\n\n
-        Tutti i materiali che non possono essere destinati alla raccolta differenziata dei rifiuti (gomma, gommapiuma, ossi, cocci di ceramica, mozziconi di sigaretta, lettiere per animali, stracci, appendiabiti, legno trattato o verniciato, pannolini, assorbenti, garze, cerotti, piatti, bicchieri e posate di carta/plastica, carta chimica o oleata o sporca, giocattoli non elettronici, filtri e sacchi per aspirapolvere, CD/DVD/musicassette/VHS e custodie, ecc.).
-        \n\nNO:\n\n
-        Rifiuti differenziabili, materiali accesi e tutto ciò che può essere portato alla stazione ecologica: rifiuti pericolosi, rifiuti ingombranti, sostanze liquide, rifiuti derivanti da costruzioni e demolizioni (inerti, calcinacci, ecc.), materiali metallici che possono recare danni ai mezzi durante la raccolta ed il trasporto.
-        \n\nCOME:\n\n
-        Devono essere contenuti in buste o involucri ben chiusi, non lasciare mai sacchetti a terra accanto ai cassonetti.
+        <![CDATA[
+        <h1><font color="green">SI:</font></h1>
+        <h3>Tutti i materiali che non possono essere destinati alla raccolta differenziata dei rifiuti 
+		(gomma, gommapiuma, ossi, cocci di ceramica, mozziconi di sigaretta, lettiere per animali, stracci, 
+		appendiabiti, legno trattato o verniciato, pannolini, assorbenti, garze, cerotti, piatti, bicchieri e 
+		posate di carta/plastica, carta chimica o oleata o sporca, giocattoli non elettronici, filtri e sacchi 
+		per aspirapolvere, CD/DVD/musicassette/VHS e custodie, ecc.).</h3>
+        <h1><font color="red">NO:</font></h1>
+        <h3>Rifiuti differenziabili, materiali accesi e tutto ciò che può essere portato alla stazione ecologica: 
+		rifiuti pericolosi, rifiuti ingombranti, sostanze liquide, rifiuti derivanti da costruzioni e demolizioni 
+		(inerti, calcinacci, ecc.), materiali metallici che possono recare danni ai mezzi durante la raccolta ed il trasporto.</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>Devono essere contenuti in buste o involucri ben chiusi, non lasciare mai sacchetti a terra accanto ai cassonetti.</h3>
+        ]]>
     </string>
     <string name="raee">
-        I RAEE sono i rifiuti derivanti da apparecchiature elettriche ed elettroniche, vale a dire quei dispositivi che per funzionare hanno bisogno di corrente elettrica, pile o batterie. A causa della continua innovazione del mercato e della loro straordinaria diffusione, i RAEE sono diventati una frazione molto rilevante del rifiuto urbano. Molti però non sanno che, trattandoli come un normale rifiuto indifferenziato, possono provocare gravi danni all’ambiente e alla salute umana. I RAEE, infatti, sono recuperabili se trattati in maniera adeguata, ma contengono spesso sostanze tossiche o nocive come CFC (clorofluorocarburi), cadmio, cromo, mercurio e pericolosi metalli pesanti.
-        \n\nSI:\n\n
-        RAEE di grandi dimensioni:\n
-        TV, PC e accessori come scanner, schermi, video e stampanti, fax, fotocopiatrici, frigoriferi, altri grandi elettrodomestici utilizzati per refrigerazione, conservazione e deposito di alimenti, lavatrici, lavastoviglie, apparecchi per la cottura, stufe elettriche, boiler, forni a microonde, apparecchi elettrici di riscaldamento, radiatori elettrici, condizionatori, aspirapolvere, scope elettriche, macchine per cucire, ecc.
-        \nRAEE di piccole dimensioni:\n
-        ventilatori, piccoli aspirapolvere, ferri da stiro, tostapane, friggitrici, frullatori, altri apparecchi per la preparazione dei cibi e delle bevande, apparecchi taglia capelli, asciugacapelli, spazzolini da denti elettrici, rasoi elettrici, sveglie elettriche, notebook, calcolatrici, telefoni senza filo, telefoni cellulari con batteria ed accessori, radio, videocamere, registratori hi-fi, amplificatori audio, strumenti musicali elettronici, giocattoli elettrici/elettronici, apparecchiature per sport e tempo libero, ecc.
-        \n\nCOME:\n\n
-        Devono essere conferiti alle stazioni ecologiche; in alternativa, per i RAEE di grandi dimensioni è possibile richiedere il ritiro gratuito a domicilio.
+		<![CDATA[
+        <h3>I RAEE sono i rifiuti derivanti da apparecchiature elettriche ed elettroniche, vale a dire quei 
+		dispositivi che per funzionare hanno bisogno di corrente elettrica, pile o batterie. 
+		A causa della continua innovazione del mercato e della loro straordinaria diffusione, i RAEE sono 
+		diventati una frazione molto rilevante del rifiuto urbano. Molti però non sanno che, trattandoli come un normale 
+		rifiuto indifferenziato, possono provocare gravi danni all’ambiente e alla salute umana. I RAEE, infatti, sono recuperabili 
+		se trattati in maniera adeguata, ma contengono spesso sostanze 
+		tossiche o nocive come CFC (clorofluorocarburi), cadmio, cromo, mercurio e pericolosi metalli pesanti.</h3>
+        <h1><font color="green">SI:</font></h1>
+        <h2>RAEE di grandi dimensioni:</h2>
+        <h3>TV, PC e accessori come scanner, schermi, video e stampanti, fax, fotocopiatrici, frigoriferi, 
+		altri grandi elettrodomestici utilizzati per refrigerazione, conservazione e deposito di alimenti, lavatrici, 
+		lavastoviglie, apparecchi per la cottura, stufe elettriche, boiler, forni a microonde, apparecchi elettrici di 
+		riscaldamento, radiatori elettrici, condizionatori, aspirapolvere, scope elettriche, macchine per cucire, ecc.</h3>
+        <h2>RAEE di piccole dimensioni:</h2>
+        <h3>ventilatori, piccoli aspirapolvere, ferri da stiro, tostapane, friggitrici, frullatori, altri apparecchi 
+		per la preparazione dei cibi e delle bevande, apparecchi taglia capelli, asciugacapelli, spazzolini da denti elettrici, 
+		rasoi elettrici, sveglie elettriche, notebook, calcolatrici, telefoni senza filo, telefoni cellulari con batteria ed accessori, 
+		radio, videocamere, registratori hi-fi, amplificatori audio, strumenti musicali elettronici, giocattoli elettrici/elettronici, 
+		apparecchiature per sport e tempo libero, ecc.</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>Devono essere conferiti alle stazioni ecologiche; in alternativa, per i RAEE di grandi dimensioni è 
+		possibile richiedere il ritiro gratuito a domicilio.</h3>
+        ]]>
     </string>
     <string name="rup">
-        I RUP sono i Rifiuti Urbani Pericolosi. Sono materiali contenenti sostanze tossiche e infiammabili che in diversa misura sono nocive per le persone e l’ambiente, ed è per questo che devono essere raccolti e smaltiti in modo adeguato. Alcuni di essi, per esempio gli oli minerali, possono essere recuperati.
-        \n\nSI:\n\n
-        Vernici, collanti, solventi, coloranti, insetticidi, pesticidi, termometri al mercurio, oli minerali (es. per motori), filtri olio, pile e batterie, ecc.
-        \n\nCOME:\n\n
-        Devono sempre essere conferiti alle stazioni ecologiche.
+        <![CDATA[
+        <h3>I RUP sono i Rifiuti Urbani Pericolosi. Sono materiali contenenti sostanze tossiche e infiammabili 
+		che in diversa misura sono nocive per le persone e l’ambiente, ed è per questo che devono essere raccolti e 
+		smaltiti in modo adeguato. Alcuni di essi, per esempio gli oli minerali, possono essere recuperati.</h3>
+        <h1><font color="green">SI:</font></h1>
+        <h3>Vernici, collanti, solventi, coloranti, insetticidi, pesticidi, termometri al mercurio, oli minerali 
+		(es. per motori), filtri olio, pile e batterie, ecc.</h3>
+        <h1><font color="yellow">COME:</font></h1>
+        <h3>Devono sempre essere conferiti alle stazioni ecologiche.</h3>
+        ]]>
     </string>
     <string name="pile">
-        Pile:\n
-        Le pile sono un rifiuto pericoloso, in quanto contengono metalli pesanti come mercurio, nichel, piombo e cadmio. Se conferite scorrettamente, possono inquinare il terreno e le falde acquifere. Devono essere raccolte separatamente per poter essere trattate in sicurezza, occorre quindi conferirle negli appositi contenitori dislocati da Hera nelle strade, presso rivenditori, centri commerciali, supermercati e presso alcune scuole.
-        \n\nFarmaci:\n
-        I farmaci sono rifiuti non recuperabili. Sono composti da principi attivi che possono alterare gli equilibri naturali dell’ambiente. Per questo è necessario raccoglierli separatamente e conferirli negli appositi contenitori situati presso le farmacie del territorio e presso alcune strutture sanitarie privandoli del loro involucro e del foglio illustrativo.
-        \n\nAbiti usati:\n
-        Inseriti in sacchi ben chiusi e non troppo voluminosi, si possono raccogliere negli appositi contenitori stradali dislocati sul territorio.
-        \n\nOli vegetali:\n
-        L’olio vegetale è un rifiuto recuperabile. Se versato nelle fognature cittadine può causare inquinamento alle condotte fognarie e danni ai sistemi di depurazione. Deve essere raccolto separatamente e conferito alle stazioni ecologiche.
+        <![CDATA[
+        <h1><font color="yellow">PILE:</font></h1>
+        <h3>Le pile sono un rifiuto pericoloso, in quanto contengono metalli pesanti come mercurio, nichel, 
+		piombo e cadmio. Se conferite scorrettamente, possono inquinare il terreno e le falde acquifere. 
+		Devono essere raccolte separatamente per poter essere trattate in sicurezza, occorre quindi conferirle negli 
+		appositi contenitori dislocati da Hera nelle strade, presso rivenditori, centri commerciali, supermercati e presso alcune scuole.</h3>
+        <h1><font color="yellow">FARMACI:</font></h1>
+        <h3>I farmaci sono rifiuti non recuperabili. Sono composti da principi attivi che possono alterare gli 
+		equilibri naturali dell’ambiente. Per questo è necessario raccoglierli separatamente e conferirli negli 
+		appositi contenitori situati presso le farmacie del territorio e presso alcune strutture sanitarie privandoli 
+		del loro involucro e del foglio illustrativo.</h3>
+        <h1><font color="yellow">ABITI:</font></h1>
+        <h3>Inseriti in sacchi ben chiusi e non troppo voluminosi, si possono raccogliere negli appositi contenitori 
+		stradali dislocati sul territorio.</h3>
+        <h1><font color="yellow">OLI VEGETALI:</font></h1>
+        <h3>L’olio vegetale è un rifiuto recuperabile. Se versato nelle fognature cittadine può causare inquinamento 
+		alle condotte fognarie e danni ai sistemi di depurazione. Deve essere raccolto separatamente e conferito alle stazioni ecologiche.</h3>
+        ]]>
     </string>
 
     <string name="score">Punteggio Massimo</string>
@@ -103,13 +169,13 @@
     <string name="btn_start">Gioca!</string>
 
     <string name="btn_all">Tutti i Comuni</string>
-    <string name="btn_p_secco">Top Secco</string>
-    <string name="btn_p_verde">Top Verde</string>
-    <string name="btn_p_vetro">Top Vetro</string>
-    <string name="btn_p_carta">Top Carta</string>
-    <string name="btn_p_plastica">Top Plastica</string>
-    <string name="btn_p_rd">Top RD</string>
-    <string name="btn_rifiuti">Top Globale</string>
+    <string name="btn_p_secco">Minor Secco/abitante</string>
+    <string name="btn_p_verde">Minor Verde/abitante</string>
+    <string name="btn_p_vetro">Minor Vetro/abitante</string>
+    <string name="btn_p_carta">Minor Carta/abitante</string>
+    <string name="btn_p_plastica">Minor Plastica/abitante</string>
+    <string name="btn_p_rd">Maggior % raccolta differenziata</string>
+    <string name="btn_rifiuti">Minor Rifiuto/abitante</string>
 
     <string name="btn_comune">Dettagli Comune</string>
     <string name="btn_stares">Risultati Statistiche</string>
