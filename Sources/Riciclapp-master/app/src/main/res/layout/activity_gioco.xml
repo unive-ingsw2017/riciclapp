@@ -26,7 +26,8 @@
         android:layout_marginTop="50dp"
         android:onClick="startQuiz"
         android:text="@string/btn_start"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:background="@drawable/button_selector"/>
 
     <TextView
         android:id="@+id/maxScore"
@@ -35,7 +36,9 @@
         android:layout_marginTop="60dp"
         android:text=""
         android:textAlignment="center"
-        android:textSize="30sp" />
+        android:textColor="#000000"
+        android:textSize="30sp"
+        />
 
     <!--<Button-->
         <!--android:id="@+id/asia"-->

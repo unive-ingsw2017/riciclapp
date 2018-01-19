@@ -15,7 +15,20 @@
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnGuida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/btn_guida"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/button_selector" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnGioco"
@@ -28,7 +41,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnGuida"
-                tools:text="Test conoscenze" />
+                android:background="@drawable/button_selector" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnStatistiche"
@@ -38,25 +51,12 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/btn_statistiche"
-                app:layout_constraintEnd_toEndOf="@+id/btnGuida"
-                app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnGuida"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnGioco"
-                tools:text="Statistiche sui rifiuti" />
+                android:background="@drawable/button_selector" />
 
-            <android.support.v7.widget.AppCompatButton
-                android:id="@+id/btnGuida"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="20dp"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/btn_guida"
-                app:layout_constraintEnd_toEndOf="@+id/btnSelProvincia"
-                app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnSelProvincia"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:text="guida al riciclaggio" />
+
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnSelProvincia"
@@ -66,11 +66,10 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/btn_sel_provincia"
-                app:layout_constraintEnd_toEndOf="@+id/btnPreferiti"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/btnPreferiti"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnStatistiche"
-                tools:text="Lista Ecocentri" />
+                android:background="@drawable/button_selector" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnPreferiti"
@@ -78,12 +77,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="20dp"
                 android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_selector"
                 android:text="@string/btn_preferiti"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.25"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnSelProvincia"
-                tools:text="Ecocentri Preferiti" />
+                app:layout_constraintTop_toBottomOf="@+id/btnSelProvincia" />
 
         </android.support.constraint.ConstraintLayout>
 
