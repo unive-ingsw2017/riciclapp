@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background">
+    android:background="@drawable/background"
+    android:scrollbars="vertical">
 
     <include layout="@layout/toolbar_layout" />
 
@@ -90,20 +91,21 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
 
         <android.support.v7.widget.AppCompatTextView
             android:id="@+id/text_nome_comune"
-            android:layout_width="240dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="24dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="@color/orange_temp"
             android:textStyle="bold"
             app:fontFamily="casual"
             app:layout_constraintEnd_toStartOf="@+id/btnAddPref"
-            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintHorizontal_bias="0.093"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:textAllCaps="true" />

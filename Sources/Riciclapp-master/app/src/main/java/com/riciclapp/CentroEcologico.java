@@ -82,11 +82,11 @@ public class CentroEcologico extends AppCompatActivity {
 
             comune.setText(linea[5]);
             dettagli.setText(
-                    "BACINO : " + "\n" + linea[4] + "\n\n" +
-                    "INDIRIZZO : " + "\n" + linea[7] + "\n\n" +
-                    "COMUNE : " + "\n" + linea[8] + "\n\n" +
-                    "ECOMOBILE : " + "\n" + linea[6] + "\n\n" +
-                    "SOLO RAEE : " + "\n" + linea[10] + "\n\n" +
+                    "BACINO : " + linea[4] + "\n" +
+                    "INDIRIZZO : "  + linea[7] + "\n" +
+                    "COMUNE : "  + linea[8] + "\n" +
+                    "ECOMOBILE : "  + linea[6] + "\n" +
+                    "SOLO RAEE : " + linea[10] + "\n" +
                     "PER INFORMAZIONI :");
 
             link.setText(Html.fromHtml("<a href=\""+linea[9]+"\">" +linea[9] +"</a>"));
@@ -127,12 +127,13 @@ public class CentroEcologico extends AppCompatActivity {
 
                 comune.setText(linea[5]);
                 dettagli.setText(
-                        "BACINO : " + "\n" + linea[4] + "\n\n" +
-                                "INDIRIZZO : " + "\n" + linea[7] + "\n\n" +
-                                "COMUNE : " + "\n" + linea[8] + "\n\n" +
-                                "ECOMOBILE : " + "\n" + linea[6] + "\n\n" +
-                                "SOLO RAEE : " + "\n" + linea[10] + "\n\n" +
+                        "BACINO : " + linea[4] + "\n" +
+                                "INDIRIZZO : "  + linea[7] + "\n" +
+                                "COMUNE : "  + linea[8] + "\n" +
+                                "ECOMOBILE : "  + linea[6] + "\n" +
+                                "SOLO RAEE : " + linea[10] + "\n" +
                                 "PER INFORMAZIONI :");
+
 
                 link.setText(Html.fromHtml("<a href=\""+linea[9]+"\">" +linea[9] +"</a>"));
 
