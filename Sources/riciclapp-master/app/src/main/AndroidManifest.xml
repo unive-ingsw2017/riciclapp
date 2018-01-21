@@ -22,15 +22,6 @@
         </activity>
 
         <activity
-            android:name=".Preferiti"
-            android:label="@string/menu_item_preferiti"
-            android:theme="@style/AppTheme" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.riciclapp.MainActivity" />
-        </activity>
-
-        <activity
             android:name=".Gioco"
             android:label="@string/btn_gioco"
             android:theme="@style/AppTheme" >

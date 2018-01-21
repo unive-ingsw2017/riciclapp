@@ -21,22 +21,18 @@ public class Result extends AppCompatActivity {
 
         score = getIntent().getIntExtra("RIGHT_ANSWER_COUNT", 0);
 
-//        SharedPreferences settings = getSharedPreferences("quizApp", Context.MODE_PRIVATE);
-//        int totalScore = settings.getInt("totalScore", 0);
-//        totalScore += score;
-
         resultLabel.setText(score + " / 15");
-
-//        // Update total score.
-//        SharedPreferences.Editor editor = settings.edit();
-//        editor.putInt("totalScore", totalScore);
-//        editor.commit();
     }
     
     public void returnTop(View view) {
         Intent intent = new Intent(getApplicationContext(), Gioco.class);
         intent.putExtra("SCORE", score);
         startActivity(intent);
+    }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, Gioco.class));
     }
 
 }

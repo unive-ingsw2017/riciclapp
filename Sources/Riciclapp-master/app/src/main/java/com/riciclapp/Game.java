@@ -136,11 +136,10 @@ public class Game extends AppCompatActivity {
         ArrayList<String> quiz = quizArray.get(randomNum);
 
         // Set question and right answer.
-        // Array format: {"Country", "Right Answer", "Choice1", "Choice2", "Choice3"}
         questionLabel.setText(quiz.get(0));
         rightAnswer = quiz.get(1);
 
-        // Remove "Country" from quiz and Shuffle choices.
+        // Remove "Elemento" from quiz and Shuffle choices.
         quiz.remove(0);
         Collections.shuffle(quiz);
 

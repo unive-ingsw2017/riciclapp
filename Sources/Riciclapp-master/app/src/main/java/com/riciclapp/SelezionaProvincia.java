@@ -95,4 +95,10 @@ public class SelezionaProvincia extends AppCompatActivity implements View.OnClic
                 break;
         }
     }
+
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, MainActivity.class));
+    }
+
 }

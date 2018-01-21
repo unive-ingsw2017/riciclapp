@@ -57,7 +57,7 @@ public class CentroEcologico extends AppCompatActivity {
         List<String[]> ecoList = csvFile.read();
 
         if (bottone == 4) {
-            //arriva da selezione provincia o preferiti
+            //arriva da selezione provincia
             pos = getIntent().getIntExtra("POSIZIONE", 0);
             provincia = getIntent().getStringExtra("PROVINCIA");
 
@@ -90,9 +90,6 @@ public class CentroEcologico extends AppCompatActivity {
                     "PER INFORMAZIONI :");
 
             link.setText(Html.fromHtml("<a href=\""+linea[9]+"\">" +linea[9] +"</a>"));
-//            dettagli.append(Html.fromHtml("<a href=\""+linea[9]+"\">" +linea[9] +"</a>"));
-
-//            link.setMovementMethod(LinkMovementMethod.getInstance());
 
             if (pos == preferito && prov_saved.equals(provincia)){
                 star.setImageResource(R.drawable.ic_star_red_24dp);
@@ -101,7 +98,8 @@ public class CentroEcologico extends AppCompatActivity {
         } else if (bottone == 5) {
             //arriva da preferiti
             if (preferito == -1) {
-                Intent intent = new Intent(getApplicationContext(), Preferiti.class);
+                Intent intent = new Intent(getApplicationContext(), SelezionaProvincia.class);
+                intent.putExtra("BOTTONE", 4);
                 startActivity(intent);
             }
             else
@@ -136,8 +134,6 @@ public class CentroEcologico extends AppCompatActivity {
 
 
                 link.setText(Html.fromHtml("<a href=\""+linea[9]+"\">" +linea[9] +"</a>"));
-
-//                link.setMovementMethod(LinkMovementMethod.getInstance());
 
                 star.setImageResource(R.drawable.ic_star_red_24dp);
             }

@@ -11,15 +11,6 @@
 
     <include layout="@layout/toolbar_layout" />
 
-    <!--<TextView-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_marginTop="80dp"-->
-        <!--android:text="@string/quiz"-->
-        <!--android:textAlignment="center"-->
-        <!--android:textAllCaps="true"-->
-        <!--android:textSize="50sp" />-->
-
     <Button
         android:id="@+id/startGame"
         android:layout_width="@dimen/startBtn_width"
@@ -43,29 +34,5 @@
         android:textColor="@color/orange_temp"
         android:textSize="30sp"
         android:textStyle="bold" />
-
-    <!--<Button-->
-        <!--android:id="@+id/asia"-->
-        <!--android:layout_width="@dimen/startBtn_width"-->
-        <!--android:layout_height="@dimen/startBtn_height"-->
-        <!--android:text="Asia"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:onClick="startQuiz"/>-->
-
-    <!--<Button-->
-        <!--android:id="@+id/america"-->
-        <!--android:layout_width="@dimen/startBtn_width"-->
-        <!--android:layout_height="@dimen/startBtn_height"-->
-        <!--android:text="America"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:onClick="startQuiz"/>-->
-
-    <!--<Button-->
-        <!--android:id="@+id/europe"-->
-        <!--android:layout_width="@dimen/startBtn_width"-->
-        <!--android:layout_height="@dimen/startBtn_height"-->
-        <!--android:text="Europe"-->
-        <!--android:layout_marginTop="10dp"-->
-        <!--android:onClick="startQuiz"/>-->
 
 </LinearLayout>

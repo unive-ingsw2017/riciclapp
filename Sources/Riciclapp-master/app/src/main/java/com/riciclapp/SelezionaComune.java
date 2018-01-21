@@ -29,10 +29,6 @@ public class SelezionaComune extends AppCompatActivity implements AdapterView.On
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        if (getSupportActionBar() != null) {
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
-
         bottone = getIntent().getIntExtra("BOTTONE", 0);
         provincia = getIntent().getStringExtra("PROVINCIA");
 
