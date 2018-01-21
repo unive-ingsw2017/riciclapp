@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.riciclapp.Result"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/btnResult"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:fontFamily="casual"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/orange_temp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/orange_temp"
+        android:fontFamily="casual"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:onClick="returnTop"
+        android:text="@string/btnReturn"
+        android:background="@drawable/button_selector"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</LinearLayout>
