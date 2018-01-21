@@ -90,8 +90,8 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
             viewHolder = (ItemViewHolder)row.getTag();
         }
         String[] linea = getItem(position);
-
-        viewHolder.pos.setText(position + 1 + "° ");
+        if (category != 0)
+            viewHolder.pos.setText(position + 1 + "° ");
         viewHolder.name.setText(linea[1]);
         switch (category) {
             case 0:
@@ -113,6 +113,7 @@ public class ItemArrayAdapter extends ArrayAdapter<String[]> {
                 break;
             case 17:
                 viewHolder.score.setText(linea[17]+ "%");
+
                 break;
             case 16:
                 writeText(linea, viewHolder, category);

@@ -53,9 +53,6 @@
                 android:fontFamily="casual"
                 android:text="@string/btnPadova"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnBelluno" />
 
             <android.support.v7.widget.AppCompatButton
@@ -69,10 +66,20 @@
                 android:fontFamily="casual"
                 android:text="@string/btnRovigo"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/btnBelluno"
-                app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnBelluno"
                 app:layout_constraintTop_toBottomOf="@+id/btnPadova" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnTreviso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/button_selector"
+                android:fontFamily="casual"
+                android:text="treviso"
+                android:textStyle="bold"
+                app:layout_constraintTop_toBottomOf="@+id/btnRovigo" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnBelluno"
@@ -85,9 +92,6 @@
                 android:background="@drawable/button_selector"
                 android:fontFamily="casual"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/btnVenezia"
-                app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnVenezia"
                 app:layout_constraintTop_toTopOf="parent"/>
 
             <android.support.v7.widget.AppCompatButton
@@ -101,10 +105,7 @@
                 android:fontFamily="casual"
                 android:text="@string/btnVenezia"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/btnVicenza"
-                app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnVicenza"
-                app:layout_constraintTop_toBottomOf="@+id/btnRovigo" />
+                app:layout_constraintTop_toBottomOf="@+id/btnTreviso" />
 
             <android.support.v7.widget.AppCompatButton
                 android:id="@+id/btnVerona"
@@ -117,9 +118,6 @@
                 android:fontFamily="casual"
                 android:text="@string/btnVerona"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/btnVicenza"
-                app:layout_constraintHorizontal_bias="0.25"
-                app:layout_constraintStart_toStartOf="@+id/btnVicenza"
                 app:layout_constraintTop_toBottomOf="@+id/btnVenezia" />
 
             <android.support.v7.widget.AppCompatButton
@@ -133,9 +131,6 @@
                 android:fontFamily="casual"
                 android:text="@string/btnVicenza"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnVerona" />
 
         </android.support.constraint.ConstraintLayout>

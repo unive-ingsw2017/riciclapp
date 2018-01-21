@@ -9,6 +9,7 @@ import android.os.Parcelable;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import java.io.InputStream;
 import java.util.List;
@@ -40,6 +41,20 @@ public class Statistiche extends AppCompatActivity implements AdapterView.OnItem
         InputStream inputStream = getResources().openRawResource(R.raw.rifiuti);
         CSVFile csvFile = new CSVFile(inputStream);
         List<String[]> scoreList = csvFile.read();
+
+        TextView colonna = (TextView) findViewById(R.id.id_score);
+        TextView pos = (TextView) findViewById(R.id.id_pos);
+        if (category == 17){
+            colonna.setText("");
+            pos.setText("Pos.");
+        }else if (category == 0){
+            colonna.setText("");
+            pos.setText("");
+        }else
+        {
+            colonna.setText("kg/pers");
+            pos.setText("Pos.");
+        }
 
         for(String[] scoreData:scoreList ) {
             itemArrayAdapter.add(scoreData);

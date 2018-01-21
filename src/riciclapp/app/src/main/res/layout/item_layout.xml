@@ -32,7 +32,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:textAllCaps="true"
+        android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="16sp" />
 

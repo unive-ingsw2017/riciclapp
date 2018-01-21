@@ -31,19 +31,21 @@ public class SelezionaProvincia extends AppCompatActivity implements View.OnClic
 
         bottone = getIntent().getIntExtra("BOTTONE", 0);
 
-        AppCompatButton btnGioco = findViewById(R.id.btnPadova);
-        AppCompatButton btnStatistiche = findViewById(R.id.btnRovigo);
-        AppCompatButton btnGuida = findViewById(R.id.btnBelluno);
-        AppCompatButton btnSelezionaProvincia = findViewById(R.id.btnVenezia);
-        AppCompatButton btnPosizioneCorrente = findViewById(R.id.btnVicenza);
-        AppCompatButton btnPreferiti = findViewById(R.id.btnVerona);
+        AppCompatButton btnPadova = findViewById(R.id.btnPadova);
+        AppCompatButton btnRovigo = findViewById(R.id.btnRovigo);
+        AppCompatButton btnBelluno = findViewById(R.id.btnBelluno);
+        AppCompatButton btnVenezia = findViewById(R.id.btnVenezia);
+        AppCompatButton btnVicenza = findViewById(R.id.btnVicenza);
+        AppCompatButton btnVerona = findViewById(R.id.btnVerona);
+        AppCompatButton btnTreviso = findViewById(R.id.btnTreviso);
 
-        btnGioco.setOnClickListener(this);
-        btnStatistiche.setOnClickListener(this);
-        btnGuida.setOnClickListener(this);
-        btnSelezionaProvincia.setOnClickListener(this);
-        btnPosizioneCorrente.setOnClickListener(this);
-        btnPreferiti.setOnClickListener(this);
+        btnPadova.setOnClickListener(this);
+        btnRovigo.setOnClickListener(this);
+        btnBelluno.setOnClickListener(this);
+        btnVenezia.setOnClickListener(this);
+        btnVicenza.setOnClickListener(this);
+        btnVerona.setOnClickListener(this);
+        btnTreviso.setOnClickListener(this);
 
     }
 
@@ -88,6 +90,13 @@ public class SelezionaProvincia extends AppCompatActivity implements View.OnClic
                 break;
             case R.id.btnVerona:
                 provincia = "VR";
+                intent = new Intent(getApplicationContext(), SelezionaComune.class);
+                intent.putExtra("BOTTONE", bottone);
+                intent.putExtra("PROVINCIA", provincia);
+                startActivity(intent);
+                break;
+            case R.id.btnTreviso:
+                provincia = "TV";
                 intent = new Intent(getApplicationContext(), SelezionaComune.class);
                 intent.putExtra("BOTTONE", bottone);
                 intent.putExtra("PROVINCIA", provincia);
