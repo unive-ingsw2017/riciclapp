@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.riciclapp">
+
+    <uses-sdk android:minSdkVersion="16"/>
+
+    <application
+        android:name=".RiciclappApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Gioco"
+            android:label="@string/btn_gioco"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Game"
+            android:label="@string/btn_game"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Result"
+            android:label="@string/btn_game"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Guida"
+            android:label="@string/btn_guida"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".SelezionaProvincia"
+            android:label="Seleziona Provincia"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".SelezionaComune"
+            android:label="Selezione Comune"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.SelezionaProvincia" />
+        </activity>
+
+        <activity
+            android:name=".CentroEcologico"
+            android:label="Ecocentro"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Statistiche"
+            android:label="@string/btn_stares"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".StatisticheHome"
+            android:label="@string/btn_statistiche"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".Comune"
+            android:label="@string/btn_comune"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.riciclapp.MainActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
